@@ -1,0 +1,1 @@
+[('matematica de cu é rola', {'entities': [(0, 10, 'materia'), (14, 16, 'orgao'), (19, 23, 'orgao')]})]

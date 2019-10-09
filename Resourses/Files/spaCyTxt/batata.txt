@@ -1,0 +1,1 @@
+[('boa noite eu como batata', {'entities': [(18, 24, 'comida'), (4, 9, 'qualquercoisa')]})]

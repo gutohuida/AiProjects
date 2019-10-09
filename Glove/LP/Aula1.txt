@@ -1,0 +1,71 @@
+O objetivo da aula é introduzir os principais conceitos e temas das abordagens sobre lógica de programação e algoritmos para a resolução de diferentes problemas, bem como especificar sua importância em problemas computacionais; abordar os conceitos de entrada, processamento e saída, sob o ponto de vista computacional; entender os tipos de algoritmos a serem utilizados nesta disciplina.
+Neste momento, faremos a seguinte reflexão sobre o significado da palavra “lógica”: o que significa lógica? A lógica objetiva a organização do pensamento e é vista como a arte de pensar. Seu estudo baseia-se em argumentos compostos por premissas e conclusões. Se pararmos para pensar, utilizamos essas premissas e conclusões de forma natural todos os dias em nossas rotinas, por exemplo na simples atividade de colocar uma camisa no guarda-roupa. 
+Por trás das nossas rotinas, há sempre o chamado raciocínio lógico, que define os passos para que nossa atividade seja concluída com sucesso. Quando esse raciocínio falha, ou seja, a premissa não é suficiente, há grandes chances de não termos uma conclusão de acordo com o planejado. A mesma coisa acontece com os programas de computador: se a premissa não for satisfatória, o objetivo não será alcançado (Puga; Rissetti, 2016). Embora pareça simples o uso do raciocínio lógico, é uma tarefa bastante complexa e que exige muita prática. Faça uma reflexão de todos os passos envolvidos na troca de um pneu e os analise. Percebeu que essa tarefa não se resume em tirar um pneu e colocar o outro? Se detalharmos um pouquinho os passos para a conclusão da troca do pneu, teremos algo como:
+Temos na troca do pneu um algoritmo no qual cada instrução é um passo para ter sucesso na tarefa. Do mesmo, modo na preparação de um bolo seguese uma receita com uma sequência de passos:
+Agimos quase automaticamente na execução das tarefas no nosso dia a dia e não prestamos atenção em todos os passos envolvidos em uma simples atividade, como no exemplo da troca de pneu de um carro. Porém, cada tarefa a ser executada pelo computador deve ser minuciosamente detalhada pelo programador, que parte do princípio de que o computador não pensa e não é inteligente para saber o que precisa ser feito e como deve ser feito.
+Do mesmo modo, esses detalhamentos se dão na organização dos passos que são ordenados em uma estrutura de controle para a realização das tarefas no computador. A sequência de passos ordenados para realização de uma tarefa é o que chamamos de algoritmo.
+Algoritmo é uma sequência lógica de passos que visam atingir um objetivo bem definido (Forbellone; Eberspacher, 2005). Apesar de a palavra algoritmo parecer estranha e muitas vezes até ser confundida com logaritmo, sabemos o que são e como construir algoritmos. Se não fosse verdade, ninguém sairia de casa pela manhã, você não iria à escola, não decidiria qual é o melhor caminho para chegar a um lugar, entre outros. Para que tais atividades sejam feitas, é necessária uma série de entradas de dados – do tipo a hora para acordar, a hora para sair de casa, o melhor meio de transporte – para executar os algoritmos.
+Um fator importante é que, às vezes, um problema pode ser resolvido de diversas maneiras, porém gerando a mesma resposta/resultado, ou seja, podem existir vários algoritmos para solucionar o mesmo problema. Por exemplo, para fazer o trajeto de casa até a escola, podemos escolher entre diversos meios de transporte (ônibus, carro, moto, caminhada, bicicleta, entre outros) em função de melhor preço, maior conforto, maior rapidez, entre outros. Esses critérios influenciarão diretamente a escolha de quais passos seguir na tomada de decisão, mas o resultado, que é chegar à escola, é o mesmo para todos os meios de transporte disponíveis. Veja os exemplos na Tabela 1.
+Temos na Tabela 1 três algoritmos, com critérios diferentes, que obtiveram o mesmo resultado.
+Para Carvalho (2005), existem várias formas de representar os algoritmos, por exemplo:
+Por meio de representações gráficas como: diagrama de NassiShneiderman, fluxograma, entre outros.
+Por meio de uma descrição narrativa (português, inglês, espanhol etc): forma utilizada em receitas culinárias, bulas de remédios, manuais de instruções, tutoriais, nos exemplos da Tabela 1, na descrição dos passos dados para a troca de um pneu, entre outros.
+Por meio de um pseudocódigo, uma linguagem de programação (Java, C#, C++, etc): alguns programadores experientes "pulam" a etapa do algoritmo e vão direto para a linguagem de programação de sua preferência.
+Cada uma das três formas de representar um algoritmo acima tem suas vantagens e desvantagens, e a escolha da melhor representação cabe ao programador.  Nos próximos tópicos, apresentam-se as três formas representação mais utilizadas na criação de algoritmos:
+Diagrama de Nassi-Shneiderman.
+Fluxograma.
+Português estruturado ou pseudocódigo.
+O diagrama Nassi-Shneiderman, ou diagrama N-S, é uma forma gráfica de representar programas de computador ou algoritmos. Esse diagrama permite a visualização do sistema como um todo e simplifica o desenvolvimento do projeto e a identificação de eventuais falhas no raciocínio. A Figura 1 ilustra o exemplo de um algoritmo de realizar a troca de uma lâmpada.      
+A ideia básica do diagrama N-S é representar as ações de um algoritmo dentro de um único retângulo, subdividindo-o em retângulos menores, que representam os diferentes blocos de sequência de ações do algoritmo. Entre os blocos, há uma pergunta que influenciará o fluxo das ações, que é “lâmpada não acendeu?”. Se a lâmpada acender, a resposta para a pergunta será falsa (representado pela letra “F”) e encerra o fluxo do algoritmo; se a lâmpada não acender, a resposta para a pergunta será verdadeira (representado pela letra “V”) e segue o fluxo do algoritmo.
+O fluxograma é uma representação gráfica que utiliza formas geométricas ligadas por setas para indica fluxo, ações (instruções) e decisões que deverão ser seguidas para resolver um problema (Guedes, 2014). Essas formas geométricas são um tipo de diagrama que pode ser entendido como uma representação esquemática de um processo, que ilustra de forma descomplicada a sequência de execução dos elementos que o compõem. Podemos entendê-lo, na prática, como uma documentação dos passos necessários para a execução de um processo qualquer que permite visualizar o fluxo e as etapas de processamento de dados possíveis para a resolução do problema que, segundo os autores Ascencio e De Campos (2012) e Guedes (2014), oferece vantagem e desvantagem na sua adoção:
+Vantagem – símbolos gráficos são mais simples de compreender do que textos.
+Desvantagem – é preciso aprender a simbologia, e não há detalhes mais precisos, o que dificulta a transcrição para uma linguagem de programação. Além do mais, problemas complexos resultam em um desenho gráfico muito denso, que torna difícil a visualização.
+Na Figura 2, apresentam-se os conjuntos de símbolos mais usados para compor um algoritmo. 
+A seguir, apresenta-se na Figura 3 um fluxograma com os passos necessários para trocar uma lâmpada. Este algoritmo é a mesma sequência de passos usada anteriormente, na Figura 1.
+No algoritmo da Figura 3, nota-se um objetivo bem definido, que é trocar uma lâmpada. Porém, se a lâmpada não estiver queimada, a execução dos passos para sua troca não será realizada. Nesse algoritmo, a lâmpada só será trocada se realmente estiver queimada. 
+O português estruturado, também conhecido como portugol, pseudocódigo ou pseudolinguagem, é uma forma de linguagem com significados bem definidos de termos utilizados nas instruções do algoritmo, que usa palavras e estruturas com significado predefinido em um padrão a ser seguido. Podemos dizer que é uma linguagem intermediária entre a linguagem natural e uma linguagem de programação usada na construção de programas. A sintaxe do português estruturado possui todos os elementos básicos e a estrutura semelhantes aos de uma linguagem de programação de computadores.  Assim como o fluxograma, o pseudocódigo oferece vantagem e desvantagem na sua adoção (Ascencio; de Campos 2012; Guedes, 2014): 
+Vantagem – a passagem para qualquer linguagem de programação é quase imediata. 
+Desvantagem – primeiro é necessário lidar com a lógica de programação e, então, aprender as regras do padrão de pseudocódigo utilizado. Ou seja, na prática, segundo as regras, ao criar um pseudocódigo, você desenvolverá o programa para depois transcrevê-lo para uma linguagem de programação. 
+Apesar de ser uma desvantagem aprender as regras e transcrever o algoritmo depois, o pseudocódigo é amplamente usado por uma grande parte dos programadores, analistas de sistemas, matemáticos, físicos e outros para descrever seus algoritmos. No caso da computação, é mais comum utilizar um pseudocódigo, por ser mais próximo de uma linguagem do dia a dia, embora bastante simplificada (Guedes, 2014). No exemplo a seguir é apresentado um algoritmo escrito em pseudocódigo, com as mesmas sequências de passos usadas no diagrama N-S e no fluxograma, das Figuras 1 e 3, respectivamente:
+Resolver problemas com português estruturado pode ser uma tarefa tão complexa quanto escrever um programa em uma linguagem de programação qualquer, só não tão rígida quanto a sua sintaxe. Se um destinatário entender os comandos (ações/instruções), o algoritmo será considerado completo; se não estiver claro, precisa ser depurado com novos comandos, que constituirão um aperfeiçoamento do comando inicial.  Caso necessário, devem ser feitos novos depuramentos até que todos os comandos estejam em conformidade e entendíveis pelo destinatário. No algoritmo trocar a lâmpada, poderia ser necessário detalhar algumas ações, como a ação de testar todas as lâmpadas antes de retirar a lâmpada queimada. Os algoritmos que exemplificaremos a partir de agora são voltados para solucionar problemas de processamento de dados (problemas computáveis, ou seja, que podem ser resolvidos pelo computador). Portanto, apesar de usarmos o português coloquial, a linguagem será mais restrita, uma vez que o destinatário (o computador) entende poucos comandos (ações/instruções).  
+Podemos pensar em algoritmo como a receita de uma pizza marguerita. Essa sequência finita de instruções em forma de receita dá cabo de uma meta específica que é o preparo de uma deliciosa pizza marguerita
+Para construir um algoritmo, é preciso seguir estes passos: 
+Entender o problema a ser resolvido e destacar os pontos mais importantes e os objetivos que o compõem. 
+Definir os dados de entrada, ou seja, quais dados serão fornecidos e quais objetivos fazem parte do cenário do problema.
+Definir o processamento, ou seja, quais operações serão executadas e quais são as restrições para essas operações; o processamento deve transformar os dados de entrada em dados de saída e também verificar quais objetos são responsáveis pelas atividades.
+Definir os dados de saída, ou seja, quais dados são gerados depois do processo.
+Construir o algoritmo utilizando um dos três tipos apresentados anteriormente (diagrama N-S, fluxograma ou pseudocódigo).
+Testar o algoritmo realizando simulações.
+Corrigir possíveis erros e voltar ao item 5.
+Com base nos conceitos vistos até aqui, iniciaremos nossos estudos com o algoritmo representado pelo pseudocódigo, por representar um algoritmo de forma semelhante à das linguagens de programação. A estrutura de um algoritmo em pseudocódigo pode variar um pouco de acordo com o autor ou com base na linguagem de programação que será utilizada posteriormente, mas essas variações ocorrem apenas na sintaxe, pois a semântica deve ser exatamente a mesma. A estrutura que empregaremos para a construção de nossos pseudocódigos será a seguinte: 1. algoritmo “nome”; 2. var; 3. inicio; 4. fimalgoritmo.
+Observe que palavras que fazem parte da sintaxe da linguagem são palavras reservadas, ou seja, não podem ser usadas para outro propósito em um algoritmo que não seja aquele previsto nas regras de sintaxe. As palavras algoritmo, var, inicio e fimalgoritmo são exemplos de palavras reservadas. Vejamos alguns exemplos de algoritmos usados para resolver problemas computacionais:
+Observe que, em todos os exemplos mostrados, a ordem lógica da execução das tarefas foi importante para que os algoritmos fossem executados sem erros. Essas tarefas são o que chamamos de instruções organizadas dentro de um escopo limitado pelas palavras início e fim. Um algoritmo tem que ter um detalhamento para que possa prever todos os passos necessários para a resolução de um problema.
+Nesta aula, aprendemos o conceito de algoritmo e começamos a desenvolver o entendimento da lógica a partir de exemplos cotidianos que podem acontecer em qualquer casa, como na troca de uma lâmpada que foi mostrada nas representações de algoritmos estudadas nesta aula. Percebemos, também, que existem várias formas de representar um algoritmo. Essas representações trazem passos que vão solucionar o problema. Vimos, ainda, que um algoritmo deve ser construído dentro de estrutura lógica e organizada, descrito em termos de ações não ambíguas e bem definidas.     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

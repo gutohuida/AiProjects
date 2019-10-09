@@ -1,0 +1,4480 @@
+{
+"content": "Olá! Quando sai a nota do trabalho?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá",
+		  "start": 0,
+		  "end": 3
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": " Acertei todas as 4 questoes da discurssiva e mesmo assim fiquei com 95, gostaria de saber qual foi o erro? Att",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Acertei todas as 4 questoes da discurssiva e mesmo assim fiquei com 95, gostaria de saber qual foi o erro? Pq o desconto na nota? Att",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá Verifiquei o gabarito da minha Apol e acertei 3 de 5 e minha nota foi 40 e na Apol 1 tbm acertei 3 de 5 e tirei 60. o peso de cada questão não é 20? Gostaria que reveja se o sistema fez o processo de forma correta. Já estou me empenhando mais para a próxima APOL tirar 100. Aguardo retorno.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá, Gostaria de saber oque aconteceu com minha nota na atividade prática? Fiz baseado nas aulas da Prof Maristela não entendi.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá",
+		  "start": 0,
+		  "end": 3
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": " A questão 07 e 10, eu recebi uma nota zero, sendo que os códigos estão funcionando corretamente. Gostaria de saber o por quê desta nota.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite falei errado. Era a questão 7 que recebi 0,8. Mas tudo bem professor. Obrigado pela ajuda. Minha nota já melhorou ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Ola, Professora, Na apol 02 acertei todas as questoes e tirei 080? Nao estou entendendo.... Pela logica eh 100",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite. Na Apol 02 acertei 4 questões de 5 e minha nota foi 60. Qual é o valor para cada questão?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": " Bom dia a minha nota foi é isso que dificuldades estamos enfrentando com a instituição a cada disciplina uma divergercia.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "olá professor, quando sai a nota do trabalho ?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "olá professor",
+		  "start": 0,
+		  "end": 13
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "eu errei apenas uma questão na apol 02 e a nota esta 60.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Queria saber porque tirei 0 se entreguei a primeira atividade prática ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Verificar Apol 2 as 5 questões estão certas e a nota aparece 80.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "No exercício 5 a Equação para resolução do cálculo da nota e esse: ???????? =((? ??????????) * 20 + ???? * 20 + ???? * 30 + ???? * 30 ) / 100 minha dúvida é: no Sistema UNINTER para simulação das notas, PROVA OBJETIVA (PO) e que vale 30% da nota e ATIVIDADE PRATICA vale apenas 20 %.. Devemos seguir o enunciado da questão ou devemos seguir como esta no sistema UNINTER? ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde! Notei que o prazo para a entrega das notas expirou e o Trabalho referente a Lógica de Programação e Algoritmos ainda está como [Correção]. Gostaria de saber, existe alguma estimativa de entrega desta última nota? Desde já agradeço a atenção e esforços. Qualquer dúvida ou inclusão porterior, fico à disposição!",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite. Gostaria de saber o motivo pelo qual a nota referente a atividade prática ainda não saiu. Sei que ainda esta em prazo de correção mas como já faz um tempo, fiquei com receio de que pudesse ter ocorrido algum imprevisto. Obrigado.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite! eu entreguei o meu trabalho de lógica programação e algoritmos dentro do prazo determinado, assim que corrigir a minha média vai aumentar? porque a minha média já saiu antes da correção o trabalho!! obrigado!",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "lógica programação e algoritmos",
+		  "start": 42,
+		  "end": 73
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "por que a nota da minha prova discursiva em exame esta aparecendo nota 0.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa, tarde!! deve ter acontecido algum erro nas apols 3 e 4 , fiz e as notas apareceram 100 e 100 , agora está co 60 e 40 respectivamente, por gentileza verificar o que aconteceu?? , estou preocupado por que nunca tirei essa notas , em nenhuma matéria. alguém mexeu nas minhas notas. aguardo retorno.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa, tarde!!",
+		  "start": 0,
+		  "end": 12
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite! Acredito que a minha atividade prática não foi avaliada de forma correta. Apliquei todos algoritmos no virtualG e obtive sucesso nos resultados, conforme o enunciado da questão. Peço uma atenção especial na questão 8. Não estou satisfeito com a forma que foi avaliado! Att, Kleber",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite!",
+		  "start": 0,
+		  "end": 10
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"KEYWORD"
+	  ],
+	  "points": [
+		{
+		  "text": "algoritmos",
+		  "start": 100,
+		  "end": 110
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá! Acredito que ocorreu algum erro de correção na minha atividade prática, pois minha nota foi muito baixa, e, por ser uma atividade pesquisada, não há motivo para eu ter errado tanto. Peço, por favor, uma nova correção. Disciplina: Lógica de programação e algoritmos. RU: 1264659.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá",
+		  "start": 0,
+		  "end": 3
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia professor! Fiz upload da avaliação no dia 29/04, porém não consigo visualizá-la no portal. Onde isso fica disponível? Onde será apresentada a nota da avaliação? Obrigado.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia professor",
+		  "start": 0,
+		  "end": 17
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Professor, bom dia! Estava revisando a nota de meu trabalho prativo e existem algumas questões que a resposta fornecida é muito parecida com a resposta do gabarito e na avaliação a nota atribuida é 0. Por favor, como devo proceder para que o trabalho seja recorrigido? Alex Nogueira",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Professor, bom dia!",
+		  "start": 0,
+		  "end": 19
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Professor, boa noite! Ao fazer a APOL3, me deparei com gabarito duplicado na questão 1 (imagem em anexo). Como fiquei com média 8 (logo errei uma) e receio que possa ter sido essa, solicito o ajuste. Obrigado! ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Professor, boa noite!",
+		  "start": 0,
+		  "end": 21
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde, realizei a APOL2 na qual tirei uma nota baixa, esperei sai o gabarito para checar quais questões estavam erradas. Então estive olhando na questão 1 e vi que não constava como correta, e nem como incorreta... poderia verificar o que houve? Obrigada.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "boa tarde. gostaria que fosse feita uma nova revisão nas atividades pratica. consultando as questões \"erradas\"constatei que pela falta de uma letra na resposta ,ela foi considerada errada. favor revisar as atividades, pois não é justo que por errar uma letra a questão toda seja considerada errada. obrigado",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "boa tarde.",
+		  "start": 0,
+		  "end": 10
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "O meu questionamento é sobre a nota da atividade prática.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia, Qual o prazo para correção da nota? Obrigado.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "E sobre atividade pratica tem um prazo para saber as notas?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa Tarde! Por favor, verifiquei agora o gabarito da atividade prática e vi que minha nota foi 98, pois no exercício 4/10 tirei 8,00. Comparei as respostas e não encontrei diferença. Por favor, me sinalize onde está meu erro? Fico no aguardo Obrigado Kleny",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa Tarde!",
+		  "start": 0,
+		  "end": 10
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Nossa! Então vou ficar com 5,0 na nota da discursiva? Complicado. Muito complicado.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Prezado Professor Vinícius, A Minha AP foi corrigida e peço que seja revisto pelo motivo de eu ter solicitado uma nova tentava. Ocorre que foi corrigida a minha primeira tentativa e não a segunda. Peço que o Sr considere e que seja feita a correção da segunda tentativa conforme solicitado anteriormente. Desde já agradeço. Respeitosamente, Anderson Fernandes",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Prezado Professor Vinícius",
+		  "start": 0,
+		  "end": 26
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá! Gostaria que corrigissem minha nota da APOL2 da disciplina de Lógica de programação pois acertei todas mas o sistema está mostrando que tirei 80 sendo que deveria ser 100.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "Lógica de programação",
+		  "start": 67,
+		  "end": 88
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "bom dia referente a matéria lógica de programação e algoritmo, deve ter algum engano está dizendo que estou em exame com nota final 65,00. mas atingi a média, consultei na calculadora uninter tirei 20 na objetica e 100 na discurssiva favor verificar",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "lógica de programação e algoritmo",
+		  "start": 28,
+		  "end": 61
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Gostaria de saber porque as minhas notas nas questões de desenvolvimento do algoritmo foram tão baixas (7.5), afinal os algoritmos realizaram o que era solicitado no exercício.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá, Gostaria de saber se passei na matéria, pois tirei 80 na objetiva e 56 na subjetiva e tem as POLs. Se não passei, como devo proceder?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá, tudo bem? Quando sai a nota do trabalho? Obrigado ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá",
+		  "start": 0,
+		  "end": 3
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite, Não pode ser tirei a mesma nota na Apol 02 de antes. Ou eu não sei a matéria ou tem alguma questão errada ai.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa Noite, Esta é minha Apol 2 de Algoritmos. Tirei nota 80 mas acertei todas as questões. Segue em anexo. Se puder verificar para mim fico grato Obrigado",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa Noite",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Foi por isso que solicitei o gabarito da apol5. Essa apol tirei nota baixa... E Precisava saber onde errei... Pois vou fazer a prova esse sexta-feira, pois estou de folga do trabalho... E queria aproveitar e fazer as provas. Entende?!",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde Foi reaberta a apol devido a minha nota baixa, caso eu tire uma nota ainda menor que a primeira, qual será considerada ? Att",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia, aqui aparece que eu entreguei dia 2 e tirei nota 0, sendo que eu entreguei dia 30 e tenho certeza que não foi zero, o que pode ter acontecido?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Deixei de fazer as APOLS de Lógica de programação e algorítimos. como posso recuperar essas notas?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "Lógica de programação e algorítimos",
+		  "start": 28,
+		  "end": 63
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "minha questão 5 da apol 2 esta correta mas minha nota esta errada, queria que fosse resolvido isso ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Agora com apenas 5 questões cada Apol ficou pior pois se errar 2 questões fica com a nota 60 e antes ficava com a nota 80 . ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia, Acabei de realizar a Apol 02, tirei uma nota 60. Estou frustrado pela diminuição das questões e me sinto prejudicado. ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá, gostaria de saber por que recebi nota 8 no exercício 6 da atividade prática sendo que a resposta está igual a da correção.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Não entendi o porquê de minha nota ter sido zero na primeira questão. No aguardo de um retorno",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite! A nota foi corrigida porem ainda consta a matéria como pendente em minha grade, Gentileza verificar o que ocorreu",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "GOSTARIA DE SABER SE A ATIVIDADE PRATICA TEM PESO NAS NOTAS FINAIS DA MEDIA. PORQUE SO VI AS NOTAS DAS PROVAS E DAS APOLS.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá, qual nota média para cada apol realizada?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde Gostaria de tirar uma dúvida. A atividade prática que eu fiz da disciplina Lógica de programação e Algoritmos vale alguma nota para a disciplina.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "Lógica de programação e Algoritmos",
+		  "start": 85,
+		  "end": 119
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá, por favor da uma olhada no anexo, eu fiz baseado na média das provas da Uninter, gostaria de saber o que poderia ser removido ou acrescentado mais alguma coisa , e gostaria de saber também se depois que uma variável já declarada se eu posso usar ela depois em uma outra multiplicação. você vai observar que nos algorítimos ai é o\" Total \" e a mesma usada na \"N3 \" exemplo: escreva(\" Media das cinco APOL's : \", Total) queria saber se esse \"Total\" poderia usar nesse calculo (media<-(N1*30 + N3*20 + N4*50)/100) substituindo pelo N3, esse N3 tem como puxar esse valor do total? sem precisar eu digitá-lo novamente , se poder executar vai entender melhor o que eu estou querendo saber. ATT Elson Bernardo",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá,",
+		  "start": 0,
+		  "end": 4
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Prezados, Gentileza lançar a nota final no desempenho.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "A forma de avaliar vai mudar também? por exemplo atividade pratica com 03 questões cada questão vale 33.333pontos. Se e acerta duas questões da 66,6 pontos na qual na se arredondo pra 7, pois fiquei em exame por causa de 0,4 décimos. Estava excelente as 10 questões, nunca tive problema com essa quantidade, queria que aumentasse. ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá, boa noite. Acredito que houve um equivoco na correção da atividade prática, pois a questão 6 (que mostra 0.0 pontos) está correta e vale 20 pontos. Podendo ser analisado na Aula 2, cuja descrição confere corretamente. Desde já agradeço pela atenção e colaboração. Obrigado. Everton N. da Silva",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá, boa noite.",
+		  "start": 0,
+		  "end": 15
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "olá Prof. a média que deu aqui foi 9.05",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "olá Prof.",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": " Bom dia, estive verificando o gabarito da Apol2 de Lógica e Programação de Algorítimos, onde minha nota foi 80, porém no gabarito acertei todas as alternativas. Solicito verificação da nota ou do gabarito.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 1,
+		  "end": 8
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "Lógica e Programação de Algorítimos",
+		  "start": 52,
+		  "end": 87
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "bom dia na minha mente a média era 6 hehe fiquei com 65,0 nao consigo esse meio ponto? morro em outra cidade, longe do polo. ae preciso somente por este exame desculpe incômodo att ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite! Gostaria que fosse revisada a minha atividade prática. Eu testei todos os exercícios no VisulG e consta que acertei apenas três questões. Conferi as minhas respostas com o gabarito e não entendi porque a nota foi zero nas outras questões. Grato!",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Somente um algoritmo que eu não havia testado das questões que enviei. E me deram 60 de nota, tenho que esperar até sair o gabarito pra questionar essas questões que perdi nota ou vc pode me falar o número delas.. eu tenho salvo o que enviei aí posso rever e confirmar o erro ou o acerto.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"KEYWORD"
+	  ],
+	  "points": [
+		{
+		  "text": "algoritmo",
+		  "start": 11,
+		  "end": 20
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde, gostaria de pedir uma revisão de uma de minhas avaliações praticas, pois todos os exercícios fora feitos e conferido no visualg, e supostamente estariam corretos, e minha nota foi apenas 4, devido a isso gostaria de saber como devo proceder para solicitar uma revisão da referida atividade. Obrigado e aguardo retorno o quanto antes.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá! Boa noite, realizei os exames, e no espaço do Exame da Discursiva não consta nota da mesma avaliação. ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá",
+		  "start": 0,
+		  "end": 3
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite",
+		  "start": 5,
+		  "end": 14
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite, quando sai a nota da minha prova discursiva ?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa Noite Professor! Então vamos lá ,como o Srº viu não atingi a média não realizei as atividades práticas, pois tenho muita dúvida em interpretação de texto não consigo realizar atividades nem a prova consegui apenas uma questão em 60 minutos . Gostaria de saber a possibilidade de fazer um exame para recuperar essa nota ! Desde já agradeço a atenção Boa Noite.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "No exercício 5 do trabalho, a formula da nota esta errada pois a prova objetiva vale 30 pontos e a atividade pratica vale 20 pontos, no pdf que você nos passou a formula está Objetiva: 20 e a atividade pratica: 30, acho que na hora de corrigir estará errado!",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia professor, como ficará a situação da minha nota final? infelizmente não consegui entregar os trabalhos, mas pelas outras notas, ficou faltando apenas 5 pontos pra atingir a média. o sr. poderia me dar esses 5 pontos pra eu não ter que fazer exame novamente, visto que as notas das outras avaliações foram bem satisfatórias? Agradeço desde já. ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa Noite professor, Já vi a postagem da nota e agradeço pela prontidão. Na soma das notas e calculo da média calculei e estou com 68. Terei que fazer a final por essa diferença para a média?? Quebra essa por favor... são 2 pontinhos... ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa Noite professor",
+		  "start": 0,
+		  "end": 19
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite Prof Gostaria, por favor verificar os anexos abaixo , com a divulgação do Gabarito da prova discursiva, se pode considerar essa questão como quase certa. Pois com essa verificação ficaria com uma nota superior a 70 para passar direto. certo de sua compreensão. att Leonardo augusto RU - 101335",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite Prof",
+		  "start": 0,
+		  "end": 14
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia, fiz minha atividade Prática, toda conferida no visulG , vi agora a nota 30, a qual não concordo, a não ser que me mostre os erros e como corrigir. Peço que seja feita revisão em minha Atividade Prática. Fico aguardando resposta. ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"FERRAMENTA"
+	  ],
+	  "points": [
+		{
+		  "text": "visulG",
+		  "start": 56,
+		  "end": 62
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde Prof Vinicius! Eu acabei de ver o resultado do meu Exercício Geral e fiquei em dúvida do porque foi descontado 0,2 nos dois primeiros exercícios. Obrigado e tenha um ótimo dia!",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde Prof Vinicius!",
+		  "start": 0,
+		  "end": 24
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia, Realizei a prova discursiva de 2a chamada e acredito que minha nota esteja errada, pois verifiquei a nota e o gabarito da prova e minhas respostas estão iguais ao gabarito. Seria possível realizar uma revisão da correção? Desde já agradeço pela atenção e fico no aguardo.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia! Gostaria que revisassem a atividade prática da disciplina de Lógica de Programação e Algoritmos. Minhas respostas estão coerentes com as do gabarito, mesmo assim obtive uma nota muito baixa e gostaria de saber o porque. Agradecido",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "Lógica de Programação e Algoritmos",
+		  "start": 70,
+		  "end": 104
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "solicito analise da apol'3 de logica de programação e algorítimo, onde houve duas questões iguais que foram respondidas corretamente e foi considerado somente um (1) ponto, assim ficando com a nota 90. lembrando que não houve erro nas demais. peço que reconsidere a nota 90 para 100. agradeço a compreensão.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "logica de programação e algorítimo",
+		  "start": 30,
+		  "end": 64
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite! Gostaria de saber como é o regulamento das notas e média, nesta 3 APOL tirei uma nota baixa, gostaria de saber como realizar o calculo e se existe outra possibilidade de melhorar está nota?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite!",
+		  "start": 0,
+		  "end": 10
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá. Como foram reduzidas a quantidade de questões, gostaria de saber qual o peso de cada questão. Realizei a primeira APOL, verifiquei todas as questões, reli, comparei com os slides, mas recebi uma nota muito abaixo do que esperava. A nota máxima continua 100?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá.",
+		  "start": 0,
+		  "end": 4
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "gostaria de saber por que as minhas avaliações obtive notas baixas, depois que mudou a quantidade de questões 10 para 5 parece que ficou mais complicado nas pontuações, quantos pontos estão avaliados cada questão pois resolvi consciente as perguntas e obtive notas baixas e vejo que não estão erradas as apols 1 e 2",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá! Acredito que ocorreu algum erro de correção na minha atividade prática, pois minha nota foi muito baixa, e, por ser uma atividade pesquisada, não há motivo para eu ter errado tanto. Peço, por favor, uma nova correção. Disciplina: Lógica de programação e algoritmos. RU: 1264659.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá",
+		  "start": 0,
+		  "end": 3
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite, o senhor não postou as notas das provas do 2º bimestre, e minha N2 está muito abaixo do que eu esperava. Poderia postar as notas das provas para saber qual o valor? ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "bem como especificado pelo tutor da disciplina logica de programação e algoritmos enviei o trabalho em formato incorreto e acabei tirando 0, bacana em, como procedo a seguir ja que nao fiquei na media, aguardo instruçoes, de como proceder p dar sequencia nas outras materias.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "logica de programação e algoritmos",
+		  "start": 47,
+		  "end": 81
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá professor, Com relação a primeira tentativa da AP eu fui fazer ai o AVA estava instável e não consegui fazer, ai foi liberado uma segunda tentativa que eu fiz 13 de 15 questões que tinham. Porém ainda não saiu a nota , pode verificar por favor ? ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá professor",
+		  "start": 0,
+		  "end": 13
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá, boa tarde! A minha apol 4 na questão de número 2, mostra a mensagem que está correta, mas a nota atribuída foi 0.0, não sendo atribuído o valor dos 20.0 pontos ao resultado final. O protocolo da realização da prova é 2018102810276342288454 Poderiam verificar, por gentileza? Obrigado!",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia, professor. Hoje tive acesso a correcao da minha atividade pratica. Curiosamente, minhas respostas estao de acordo com o gabarito e, mesmo assim, a maioria esta com nota zero. Por favor, professsor, o senhor poderia olhar o que aconteceu na correcao? O que estou discordando e que minhas respostas estao conforme o gabarito e mesmo assim estao zeradas. Agradeco a atencao. RU: 1264659",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde, Estou fazendo engenharia de produção e na disciplina de logística e algoritmos das 4 questões discursivas apenas acertei 1, mas pelo que verifiquei mais duas das questões estão corretas. Mas nas notas esta como zero. Esta como eu ter pego exame, em função destas questões. Favor verificar ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde, fui verificar a nota da minha avaliação pratica (logica de programação e algoritmos), e percebi que a mesma esta sem nota. Desde já agradeço a atenção. ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "logica de programação e algoritmos",
+		  "start": 60,
+		  "end": 94
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde, a apol 2 da disciplina lógica de programação e algoritmos está toda correta no gabarito, porém a nota está 80, pode por favor dar uma olhada. Grato",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "lógica de programação e algoritmos",
+		  "start": 34,
+		  "end": 68
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia, professor. Anexei uma imagem de uma das questões minha prova discursiva. Professor, eu não entendo porque eu tirei 0(zero) na questão se respondi corretamente.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia, professor.",
+		  "start": 0,
+		  "end": 19
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "bom dia professor, esta disciplina esta aparecendo como pendente, mas ainda não foi registrada a nota da atividade pratica. sendo que nas provas e nas apol´s aingi a media.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "bom dia professor",
+		  "start": 0,
+		  "end": 17
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde Prof. Vinicius, então como te falei, o problema é que já colocaram nota zero por ter enviado o arquivo docx e teria que ser em pdf, será que vocês vão conseguir analisar assim? gostaria da compreensão de vocês, peço desculpas mais uma vez e obrigado pela sua atenção.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá, tive uma média baixa para conclusão desta disciplina pelo calculo foi 49. a minha nota da prova objetiva foi 40, a da discursiva é 70. Para mim está disponível o link da Discursiva para realização da prova de segunda chamada. Minha pergunta é: Se eu fizer a prova discursiva de 2 chamada e tirar uma boa nota; ela vai cobrir a nota da objetiva? E e caso for dependendo da nota será possível finalizar esta disciplina? Desde já agradeço.. ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": " Cara Professora, Verifiquei que minha avaliação discursiva teve avaliação em 26. Isso é a nota real ou teve algum problema no sistema, pergunto pois acredito que essa nota és tá muito abaixo da minha pior previsão para o teste. Atenciosamente, La-Hir Biscaíno",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Cara Professora",
+		  "start": 1,
+		  "end": 16
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde. Como faço para contestar a nota da prova discursiva? Gostaria de saber o que errei tanto sendo que testei todos os programas no visualg e todos funcionaram. Tem como falar com o corretor da prova?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde.",
+		  "start": 0,
+		  "end": 10
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Minha segunda tentativa da atividade pratica esta sem nota,tem previsão?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Prezado tutor, Boa tarde , até o presente momento não foi corrigida a minha prova discursiva de Raciocínio Lógico, realizada em 20/04. De alguns colegas a nota foi lançada, gostaria de saber o resultado da minha prova. Abs",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Prezado tutor",
+		  "start": 0,
+		  "end": 13
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 15,
+		  "end": 24
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia!! Realizei a Atividade Prática e ela já tem a nota, porém não tenho acesso ao gabarito ainda, e irei realizar minhas provas essa semana. Como posso saber o que errei se o gabarito só é liberado no dia 30/10?? Atenciosamente, Amanda Cruz.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia!!",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite, Fiquei preocupado com a minha nota na Atividade Prática, são realmente 20 pontos apenas? Errei praticamente todas as questões? No aguardo de retorno, desde já agradeço a atenção. Atenciosamente, Daniel Andrade",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá, novamente professor, refiz a atividade prática porém continuei com uma nota abaixo da média, eu posso estar equivocado mas parece que algumas atividades estão iguais as do gabarito, tem como dar uma olhada pra mim? Pois em meu computador rodou direitinho. Atenciosamente; Carlos Eduardo Rosa Portella.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá, novamente professor",
+		  "start": 0,
+		  "end": 24
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Qual o motivo da demora em sair o resultado do exame? ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": " Qual é a minha nota pois não aparece em nenhum anexo?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde, eu estava verificando o gabarito da minha atividade prática agora e notei que eu recebi a nota 0,0 em duas questões (questões 4 e 5), porém, eu revisei elas agora junto ao visualg e ambas estão funcionando perfeitamente e atendem ao enunciado da questão. Por qual motivo eu recebi um zero?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"FERRAMENTA"
+	  ],
+	  "points": [
+		{
+		  "text": "visualg",
+		  "start": 183,
+		  "end": 190
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Minhas notas e média não foram lançadas, gostaria de saber o porquê.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Minha atividade pratica não foi corrigida? Não estou entendo minha nota.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde Leonardo. Qual o prazo para a correção das notas? Atenciosamente, Juliana.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia, professor. Hoje tive acesso a correcao da minha atividade pratica. Curiosamente, minhas respostas estao de acordo com o gabarito e, mesmo assim, a maioria esta com nota zero. Por favor, professsor, o senhor poderia olhar o que aconteceu na correcao? O que estou discordando e que minhas respostas estao conforme o gabarito e mesmo assim estao zeradas. Agradeco a atencao. RU: 1264659",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia. A minha nota na ATIVIDADE PRATICA foi 20, agora depois que saiu o gabarito, comparei as minhas respostas com as apresentadas, conforme material de apoio, e estão iguais, gostaria que desse uma olhadinha e se possível rever a real nota, fico agradecido pela atenção. Desde ja, muito obrigado Cordialmente SILVIO ROBERTO ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia, quando vai sair a nota da Atividade Prática?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia! Minha nota na Ap está zerada, porém eu realizei a mesma, como segue no print em anexo.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia!",
+		  "start": 0,
+		  "end": 8
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite, Professor observei minha nota na Atividade prática 30, fui tão mal assim?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá! Fiz a Discursiva do exame, mas ainda não sei a nota. ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá",
+		  "start": 0,
+		  "end": 3
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia! Professor quando ira ser lançado a nota da atividade prática? ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá... minha nota do trabalho não foi lançada... o que devo fazer?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá",
+		  "start": 0,
+		  "end": 3
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite Vinicius, a nota do trabalho ainda não esta aparecendo, se puder verificar. Obrigado.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "bom dia ,estou verificando aki minha nota na apol 5 foi alterada tenho os protocolos salvos no email.nenhuma nota 0 .apareceu uma aki hoje.eu iria ate refazer uma que tirei 80.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Ola professor, gostaria de sanar uma dúvida com relação a minha nota, fiz o exame para recupera-la, quando minha nota sera atualizada com as motas que tirei no exame? Desde já grato.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa Tarde Prezado, avaliação Atividade Prática não influenciará na média? Entrei na opção \"Simular Notas\" e não tem a \"Atividade Prática\" para calcular a média. ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Professor boa noite, uma dúvida sobre a nota do exame quanto preciso tirar na objetiva e discursiva para conseguir aprovar ela e menor do que a media padrão ? grata se puder me responder obrigado",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite já tem alguma resposta sobre a nota da minha atividade pratica, consegui visualizar as 23 imagens que mandei , totalizando os 5 exercícios resolvidos Fico no Aguardo. ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite poderiam verificar a nota da minha atividade pratica pois esta com zero eu tenho certeza que está errada essa nota pois gatei 10 dias para fazer e verifiquei todo o material e livre que foi disponibilizado .",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite professor. Fiz a apol 5 e finalizei ela e não constou a nota, queria saber se não haverá problemas com a nota final Agradeço!!!",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite, MInha nota da prova discursiva ainda esta em correção, mas caso nao seja corregida ate o dia da prova de exame? Att, Diego.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "professor tem como revisar minhas notas ? pq ta dificil assim ter q tirar 100 em tudo pra passar. tirei 100 na apol 1 e 2 80 na 3 e 4 e 60 na 5 100 na prova obejetiva 80 no trabalho e 8 na discursiva... por favor me ajude ai .. ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia, gostaria de saber qual a minha média final? Porque não está aparecendo a minha nota da atividade prática. E teria que fazer a Prova Final para recuperar a média? Como devo proceder? ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Prof. Vinícius, você sabe me dizer qual é minha média nesta disciplina, estou com dificuldade de interpretar esta informação. E se com a média que tenho, estou aprovado nesta disciplina ou não.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Assim que eu ver minha nota no trabalho, vou saber te dizer se minha experiência com a programação foi bem sucedida. hahaha",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Professor boa tarde; Meu caro por gentileza poderia revisar esta questão. Apol 2 Questão 5 Segue Print.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "A Fiz um trabalho e gostaria de saber como ele ajudará na minha média, pois não vejo a nota do mesmo em lugar algum???",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite Professor, poderia confirmar se fiquei para a final? Obrigado.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Ola, encaminhei a atividade prática ja a alguns dia e nao obtive a nota, a nota ira aparecer onde e quando que sera corrida?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia! Fiz uma prova discursiva entregue dia 04/06/2019 e não foi corrigida até hoje. Alguma data para correção da mesma??",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá. Seria possível reconsiderar a note do meu trabalho? fiz tudo corretamente, porém, na pressa me esqueci de enviar em PDF.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "É semana de segunda chamada e minhas notas ainda não foram atualizadas no desempenho",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite Gostaria de saber quando sairá a nota da Atividade Prática (trabalho), que ainda está pendente. Grato Marcelo",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Como faço para recuperar minha nota, visto que fui bem nas duas avaliações e recebi 0 no trabalho?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde professor. Ainda não recebi minha nota da avaliação discursiva. Será que teve algum problema? Obrigado.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá, queria saber porque a nota do trabalho ainda não foi postada. Acho que já passou do prazo né... Aguardo retorno,. obrigada.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Professor, Verifiquei minha média na disciplina e acredito que está errada, seria possível verificar? ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde professor. Gostaria de saber onde vejo a nota da AP não estou conseguindo visualizar. Aguardo, obrigada. Att.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde professor. Gostaria de saber onde vejo a nota da AP não estou conseguindo visualizar. Aguardo, obrigada. Att.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia Minha Nota do PBL não foi ainda lançada no sistema na matéria de logica! ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Não foi lançada minha nota de exame final, Eng. De Produção, professor Dalton",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá, ainda não recebi a nota da minha Atividade Prática, queria saber quando vou receber, obrigada!",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa Tarde. Realizei a Apol 1 dia 26/05, mas agora quando consulto consta como zerada? O que houve?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Não! Conforme mencionei acima, estou me referindo a APOL1 que fiz no dia 26/05, e a nota esta zerada? Aguardo Retorno Obrigado ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia professor, a nota da atividade prática será somada as outras essa semana ainda?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite, gostaria de saber quando saira a nota da prova discursiva?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde, como funciona a questão de nota referente arredondamento da mesma?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia. Gostaria de saber quando será lançada a nota da avaliação prática.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Quando vai está disponível a nota da prova discursiva?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá, como calculo a media para passar nas disciplinas?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite. Professor acabei perdendo a data de entrega da atividade prática, e mesmo tirando 100 nas provas não conseguirei alcançar a média. Qual a melhor solução agora? Obrigada.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Realmente minha nota vai ficar ZERO? acha correto isso? Estou anexando o documento em PDF, acredito que um formato errado não seja motivo de nota ZERO. Peço uma reavaliação, pois dediquei muitas horas para desenvolver os exercícios para não ter uma avaliação, e como estou lhe enviando ainda dentro do prazo de entrega acredito ser valida uma reavaliação.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde professor, A disciplina de Logica de programação já acabou, eu fique com nota acima da media, porém não foi entregue a nota da minha atividade pratica que eu entreguei dentro do prazo. por gentileza pode verificar o ocorrido ? Desde já agradeço",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde professor",
+		  "start": 0,
+		  "end": 19
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "Logica de programação",
+		  "start": 37,
+		  "end": 58
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Existe um erro de gabarito na questão 2 da APOL 3 . No gabarito diz que a letra C é correta, só que correta é a alternativa que marquei. O gabarito diz que a afirmação III está errada, mas no próprio material de vocês diz que ela está certa. Peço que corrijam minha nota, pois minha resposta está correta e a falha é do gabarito de vocês.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá Maristela, Intendo que em uma avaliação com 3 questões quantas questões eu deveria acertar para ter 100 pontos? e se o sistema faz cálculo sozinho, com que base de cálculo ele usou para me avaliar e me dar 67 pontos ? Solicito que a Sr(a). Verifique o meu resultado para que seja confirmado esta Nota , conforme o sistema me avaliou. att.Jadilson Alves",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá Maristela,",
+		  "start": 0,
+		  "end": 14
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "olá, quando sairá a nota do trabalho?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Minhas após 5 e 6 estão ada e diz que eu entreguei elas as 4 da manhã do dia seguinte do término do prazo para entrega delas, sendo que eu ja havia feito e tirado 100 mas nas duas agora minha nota está baixa por causa desse erro, gostaria de saber o que pode ser feito para corrigir esse erro.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "oi, boa tarde quando vai lançar as notas finais , pois preciso saber quais matérias vou precisar fazer final . E como as finais começam dia 12/07/2017 a 18/7/2017 , preciso saber minha média . ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "oi, boa tarde",
+		  "start": 0,
+		  "end": 13
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Os dois primeiros exercícios tiveram um desconto de 2.0 na nota, mesmo a minha resposta sendo a certa e o algoritmo ter funcionado e ter feito o que o enunciado tinha dito pra fazer. A minha dúvida é se eu errei alguma coisa no meu algoritmo pra ter recebido esse desconto na nota. Obrigado!",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Estou perplexo com a nota que tive vou recorrer até a ultima instância da faculdade, porque não coloquei em pdf, gostaria de retificar em PDF pq foi trabalhoso a atividade estudei muito, tem que haver alguma solução, não posso ficar com zero até poque quando li vi que o trabalho estava correto, próprio professor relatou. Estou triste demais com isso ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia Estou solicitando novamente a verificação da nota referente a atividade prática, dessa vez mandei a fotos em imagem para facilitar , totalizando em 23 paginas e 5 exercícios resolvidos , os mesmo exercícios que pediam no meu ava. gastei 10 dias para realiza-los , e conferi cada código desses no livro da disciplina, peço por gentileza a correção da minha nota, desculpe por insistir mas gosto das coisas correta .",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia Referente a Atividade Pratica ,estou solicitando a correção da nota que está errada, só lembrando que é a terceira vez que a Uninter erra na correção de Atividades Praticas comigo. Peço por gentileza que prestem atenção na hora da correção. segue captura de tela em anexo, na captura de tela atividade 02 , pode observar : disseram que houve confusão e esses exercícios são os passados e os novos estão na aula 13 outro equívoco pode reparar na captura de tela atividade 04 , só contém vídeo, mas consegui localizar na aula 16 na captura de tela atividade que por sua vez é a mesma orientação de trabalho que fiz , que estava na rota de trabalho como de costume. Peço por gentileza que possam me ajudar com este problema , se a Uninter errou a culpa não é minha nem posso pagar pelo erro dos outros , e nem tenho tempo disponível para refazer trabalhos ou coisa do gênero, fico no aguardo, tenha um ótimo ano novo.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Quero saber o que está errado com a questão 4 da minha APOL2 marquei a resposta certa e aparece como errada. Estou enviando 2 anexos para analise. Já tive alguns problemas desse tipo com a matéria de ferramentas matemáticas aplicadas então não é a primeira vez!",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde, gostaria de solicitar a revisão de nota da atividade pratica da Lógica de Programação e Algoritmos, pois pelo foi desempenhado na atividade a nota não esta correspondendo.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "Lógica de Programação e Algoritmos",
+		  "start": 75,
+		  "end": 109
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia! Por problemas pessoais, necessito trancar minha matrícula, porém, gostaria de encerrar a matéria antes. É possível adiantar o lançamento das notas? Obrigado.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia!",
+		  "start": 0,
+		  "end": 8
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite. Gostaria de tirar uma dúvida quanto a meu resultado na disciplina de Lógica de Programação e Algorítimos. Tive na minha média das APOLs igual a 64, prova objetiva com nota igual a 90 e prova discursiva com nota igual a 100. Na atividade prática fiquei com zero (tive problemas de ordem particular e perdi os prazos de envio). Pois bem, fiz os cálculos de acordo com as orientações e informações contidas no material complementar e cheguei a um resultado de 69,8. Minha dúvida é se o sistema arredonda a minha nota para 70 ou se fico que essa nota quebrada e tenho que fazer a prova de Exame. Segue também em anexo print das minhas notas para verificação. Meu RU é 1731587.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite.",
+		  "start": 0,
+		  "end": 10
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "Lógica de Programação e Algorítimos",
+		  "start": 80,
+		  "end": 115
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Quando ira aparecer as notas la no único? Não consta nada",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde Quando vai sair o resultado da prova discursiva ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite professor. Recebi a nota do trabalho e a mesma foi zero, informo lhe que foi avaliado o arquivo errado, eu havia lhe enviado novamente o trabalho pois na hora de enviar na primeira vez eu lhe enviei o arquivo errado. Peço desculpas por ter feito essa confusão e peço para que reavalie o trabalho, falta a questão numero 1 pois realizei e não consegui concluir. Obrigado. ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Meu algoritmo nessa questão está correto, porque eu tirei 0?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia Estou muito preocupada com a minha atividade prática, mandei já faz um tempinho e demorou pra corrigir agora fui ver zeraram meu trabalho só porque não mandei no formato PDF, desconsideraram todo esforço e trabalho que tive pra realizar essa atividade e zeraram meu trabalho só porque não estava no formato de PDF eu mandei no Word... poxa meu trabalho todo jogado fora só por causa do formato uma coisa que levo menos de 10 segundos pra arrumar. Sim posso ter errado em não prestar atenção no formato que enviei, mais a minha preocupação foi em resolver o trabalho acabei não percebendo que pedia pra ser enviado em PDF, muito injusto zerar meu trabalho só por causa do formato, meu esforço então foi todo em vão. E agora não consigo enviar lá pois já passou do prova demoraram muito pra corrigir só agora vi que está zerado. Att, Nicoly Savitzki",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia, Gostaria de pedir gentilmente a revisão da minha avaliação discursiva, pois em minha humilde opinião houve muito rigor na correção em vista do tempo que temos para realizar a avaliação. No caso eu já havia questionado o fato de nas avaliações de programação ainda ser desabilitada a função \"copiar\" e \"colar\", tendo em vista que na atual situação precisamos: 1 Criar, digitar e testar no visualg o algoritmo solicitado pela questão . 2 Após os testes no visualg precisamos então digitar novamente todo o algoritmo no campo de resposta da questão. 3 Ler minunciosamente, o que é muito difícil em questão do tempo e ainda assim não é possível testar o algoritmo depois de digitado no campo de resposta, pois como eu disse anteriormente as funções \"ctl+c\" e \"ctrl+v\" estão desabilitadas. Peço encarecidamente revise a avaliação, pois todas as questões eu respondi foram antes testadas no visualG, mas no momento de digitar no campo de resposta fui pego por erros de digitação. Muito Obrigado. Atenciosamente, Rodrigo Dias Piloto Galvão",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá, hoje vi o gabarito da minha prova discursiva de lógica de programação e uma das questões está correta mas foi dado 0.0 pra ela. É possível recorrigí-la? Estou enviando a questão em anexo pra melhor entendimento.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "lógica de programação",
+		  "start": 53,
+		  "end": 74
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Gostaria de argumentar sobre trabalho que fiz e nota dada pelo corretor de minha parte não satisfeito,onde creio que o trabalho feito deveria ser de criatividade do aluno e livre para usar das ferramentas oferecidas dentro do estudo da disciplina,lógico não fugindo do enunciado da questão do trabalho. Caso questões pedissem alem do enunciado,mais especificas ou detalhadas poderiam constar no ato das questões do mesmo. Segue argumento descrito do corretor do trabalho. LUCIANA MICHELON 25/07/2019 13:42 Nota: 90 Aluno, O Ex 1 deveria ter usado um loop for/while para percorrer os 150 registros de pessoas solicitados no exercício de orientação Aula 16, não ficou correto a lógica. ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"KEYWORD"
+	  ],
+	  "points": [
+		{
+		  "text": "loop",
+		  "start": 550,
+		  "end": 554
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"KEYWORD"
+	  ],
+	  "points": [
+		{
+		  "text": "for/while",
+		  "start": 555,
+		  "end": 564
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Professor, bom dia! Como pode ser verificado na print em anexo, há duas provas discursivas. Ocorre que no dia da prova, estava tendo uma enorme ventania na minha cidade, onde a energia estava caindo frequentemente, onde o tempo da prova discursiva acabou e eu não consegui finalizar a primeira prova. nem imaginei que essa primeira prova seria corrigida pois... Eu fui na secretaria informar que o tempo da minha prova acabou e por conta das quedas de luz eu nao consegui concluir e o recurso que eles me deram foi gerar nova prova com novas questões. Eu perguntei se não tinha como me retornar para a prova anterior e a resposta foi que não era possivel. Enfim, eu tive que começar do zero, fazendo nova prova, como novas questoes, na qual eu consegui finalizá-la (diferente da primeira) e ACREDITO poder ter ido melhor que a primeira. Gostaria de saber se a segunda tambem será corrigida, considerando a melhor entre as duas, por mais que eu saiba que mesmo assim não terei media suficiente, mas que pelo menos melhore minha média. Grato. ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Fiquei com uma discordância com minha nota na discursiva de FUNDAMENTOS SIS. DE INFORMACAO nao consigo argumentar na tutoria la e como a Professora era a mesma de agora acredito que pode me responder. Porque a minha nota as respostas anexas foram 12.5 sendo que a resposta esta exatamente correta por favr ver anexos. Penso que a nota correta seria 25 para cada uma, por favor sinta-se livre para me corrigir se eu estiver errado. Obrigado",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite, Tenho uma dúvida quanto a correção de exercício da atividade pratica. (exercício - 10) . A lógica realizada executa perfeitamente o que e solicitado no enunciado e a nota para questão foi 30% . Poderia me explicar qual critério utilizou para esta correção?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Professor, gostaria que aferrisse a minha media final, pois no meu calculo a nota fecha com 70,8 pontos, seguindo o calculo de media que esta no arquivo \"Data Avaliações.pdf\" que é: [(B1 + B2)/2 * 80%] + PBL * 20% por favor, revise a media final, aguardo o retorno",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa Tarde! Por favor, gostaria que fosse revisto a nota da atividade prática, pois as questões foram feitas algumas corretamente, Ex: 9, 10, somente apenas foram utilizadas letras maiúsculas em algumas respostas, e foi dado nota 0 em algumas. Não foi reconsiderado nada na questão devido somente estar em letra maiúscula. A questão 9 está correta, e está com nota zero...",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa Tarde!",
+		  "start": 0,
+		  "end": 10
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde, Gostaria de saber como se procedera o processo de avaliações nesta disciplina... Será assim? 5 APOL's 1 Atividade Prática 40% ---------------------------- 1 Prova objetiva 30% ---------------------------- 1 Prova Discursiva 30% Aguardo a resposta... Obrigado... Att, Vinicius Pedro Specht",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde, gostaria de saber o que aconteceu com a minha atividade pratica pois tirei nota 30, eu passei todos os algoritmos no visualg e todos funcionaram. Gostaria de pedir a Revisão.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"FERRAMENTA"
+	  ],
+	  "points": [
+		{
+		  "text": "visualg",
+		  "start": 128,
+		  "end": 135
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa Noite! Nossa ainda bem que enviei a mensagem, pois de 30 a nota ja foi para 100. Com isto então eu de fato havia entendido a materia, e acabei indo muito bem. Obrigado pela revisão. Sem mais",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa Noite!",
+		  "start": 0,
+		  "end": 10
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite professor, Tudo bem? Recebi minha nota da atividade pratica com algumas questões dadas como 0.3 décimos. Porem fiz a conferencia e o código funciona conforme o pedido, Se for possível vc pode verificar para mim? Muito obrigado",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite professor, Tudo bem?",
+		  "start": 0,
+		  "end": 30
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "E sobre a nota foi essa mesma ou teve algum equivoco",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá bom dia. Professor eu realizei a Atividade Pratica, e obtive a nota hj, notei que tirei somente 20 pontos, gostaria de uma confirmação se a nota esta correta, se das 10 questões eu tirei acertei somente duas questões, ou houve algum erro na hora de entregar... Grato.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá bom dia.",
+		  "start": 0,
+		  "end": 12
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Por favor, você poderia me dizer o porquê que na Atividade Prática, questão 4 (Matriz mxn), a nota foi 8. Estou enviando, em anexo, o print da questão que eu fiz. Atenciosamente, Tatiane Rozo Brizolla",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"KEYWORD"
+	  ],
+	  "points": [
+		{
+		  "text": "Matriz mxn",
+		  "start": 79,
+		  "end": 89
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá Professor! Saiu a nota do Trabalho?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá Professor",
+		  "start": 0,
+		  "end": 13
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia Prezado Tutor Prof. Vinicius Borin Gostaria que o Sr. revisa-se minha nota da atividade pratica de lógica de programação. Pois peguei 10. Informo que testei todos os códigos usando o visual G, copiei linha alinha, estavam todos corretos.não aceito esta nota. Att, ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia Prezado Tutor",
+		  "start": 0,
+		  "end": 21
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "lógica de programação",
+		  "start": 107,
+		  "end": 128
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Venho novamente perguntar sobre o atraso relativo a minha nota da Prova Discursiva de Rede de Computadores, que até agora não foi lançada, deixando pendente a matéria em minha grade curricular. Peço por favor que tomem as providências cabíveis para que eu possa sair dessa situação que já se estende há meses.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia! Qual a data limite para o lançamento da nota da ATIVIDADE PRÁTICA ?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Prof Vinicius, minha nota da AP esta zerada, tem alguma coisa errada pois as questões que tinha que programar foi testado no VisualG e estavam funcionando, conforme solicitado no enunciado. Fico no aguardo. obrigado",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"FERRAMENTA"
+	  ],
+	  "points": [
+		{
+		  "text": "VisualG",
+		  "start": 125,
+		  "end": 132
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite, tudo bem? Em relação à média final, já está tudo certo? Porque está aparecendo que estou em exame, mas a nota da prova discursiva está como 70 aqui e no Único como 42... Pelo que vi nas correções a nota é 70 mesmo... Poderia verificar por gentileza? Fico no aguardo, Muito obrigada. Atenciosamente, Bruna.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite, tudo bem?",
+		  "start": 0,
+		  "end": 20
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá, Gostaria de saber o porquê de ter zerado a Questão 2 da Atividade Prática, sendo que somente utilizei uma lógica diferente da \"resposta\". Talvez se esta lógica não devesse ser utilizada, isto deveria estar descrito na questão.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá",
+		  "start": 0,
+		  "end": 3
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia. Fiz minha atividade prática de lógica de programação, testei todos os códigos no VisualG, CONFERI LINHA POR LINHA na hora de passar para o ambiente virtual onde estava sendo executada a atividade. Meus códigos respondiam exatamente a todos os enunciados das questões. Não houve problema na compilação dos códigos no visualG, SEM ERROS ACLAMADOS PELO SOFTWARE DE APOIO. E tirei 58 na AP. Por favor, quero uma revisão dessa minha atividade prática...A atenção em que tive ao colocar cada ponto pode ser verificada, iniciando o código e o finalizando da maneira correta e meticulosa caso a alegação de vocês seja de que faltou os comandos básicos do visualG como descrevo aqui abaixo: algoritmo \"nome especifico\" var inicio fimalgoritmo Espero que o critério de avaliação não seja responder exatamente como as respostas encontradas nos materiais, pois como bem dito por vocês nas aulas teóricas e práticas: \"...cada pessoa cria um algoritmo da sua forma, o que importa é resolver o problema proposto,sem erros de compilação ao executar.\" Como ninguém é isento a falhas, proponho que mostrem oque errei na AP , pois quando saírem os gabaritos e eu compilar esses códigos e funcionarem de acordo como pedido nos enunciados, terei que tomar providências ,pois não posso ser lesado. Grato, MARCONY OLIVEIRA SANTOS ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia.",
+		  "start": 0,
+		  "end": 8
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "lógica de programação",
+		  "start": 40,
+		  "end": 61
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"FERRAMENTA"
+	  ],
+	  "points": [
+		{
+		  "text": "VisualG",
+		  "start": 90,
+		  "end": 97
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"KEYWORD"
+	  ],
+	  "points": [
+		{
+		  "text": "compilação",
+		  "start": 299,
+		  "end": 309
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"FERRAMENTA"
+	  ],
+	  "points": [
+		{
+		  "text": "visualG",
+		  "start": 325,
+		  "end": 332
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"FERRAMENTA"
+	  ],
+	  "points": [
+		{
+		  "text": "visualG",
+		  "start": 656,
+		  "end": 663
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia ontem saio o gabarito da apol 2, pude observar que não errei nenhuma questão, porém, minha nota obtida foi 80, acredito que seja um erro do sistema. Espero retorno.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "olá, quando sairá a nota do trabalho?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Sr. Tutor por favor averiguar a resposta da Pergunta 3 da Apol 4, existem duas respostas iguais A e B. Por favor me ajude a corrigir minha nota. Obrigado e Boa noite!",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Sr. Tutor",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá bom dia. Gostaria de saber como faço no meu caso, que não consegui atingir a média da disciplina, pois perdi o trabalho da atividade prática. Mesmo fazendo a prova substitutiva, não vou chegar nos 69 pontos.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá bom dia",
+		  "start": 0,
+		  "end": 11
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Ok! Mas a que irá contar na soma da minha nota é a última, certo?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá Prof, gostaria de tirar duas dúvidas, uma é em relação de como foi distribuída as notas, nessa cadeira o trabalho - AP vale 30% da nota? É pq nas outras cadeiras a prova objetiva tem 30% e nesta ela está com o peso de 20%. Outra questão é sobre a pergunta questão 2 da prova objetiva na letra C as respostas se repetiam.. Grato desde já",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Professor, Discordo do resultado da minha avaliação de Lógica de Programação e Algoritmos, que reduziu bastante a minha nota. As questões são: Na questão 2 o problema não definiu o método de entrada dos dados, sendo assim utilizei a função RANDI para gera-los, assim como na aula em que a professora utilizou o RANDI no algoritmo da nota fiscal para gerar automaticamente os valores dos dados. Novamente, a questão trata apenas do tratamento dos dados, e não do método de entrada. Na questão 3 não faz diferença nenhuma a utilização do vetor ou não, somente o algoritmo fica diferente.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "Lógica de Programação e Algoritmos",
+		  "start": 55,
+		  "end": 89
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"KEYWORD"
+	  ],
+	  "points": [
+		{
+		  "text": "vetor",
+		  "start": 536,
+		  "end": 541
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "bom dia a nota da apol 1 não saiu como deveria poderia verificar para mim por favor?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde. Gostaria de obter mais informações a respeito da nota da prova discursiva N4, que agora a atividade passou a compor 40% da discursiva. Exemplo: Minha atividade prática foi nota 100, logo já garanti 40% da discursiva. ( minha discursiva tem peso 5 então já tenho 2 pontos nela, minha nota que aparece no sistema foi 42, sendo assim entendo que tirei 24 na prova escrita discursiva. me informem se é isso mesmo ou senão como funciona esses cálculos.) Obrigado. Ricardo de lima",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia Gostaria de Saber porque minha Prova Objetiva de Logica de Programação e Algoritmo esta com nota zero se ainda nem marquei e nem fiz a mesma. outra coisa estranha, porque minha prova esta como se eu tivesse feito a mesma as 5.53 da manha, visto que nesse horario não tem ninguem no meu polo para poder fazer. Gostaria de uma resposta o mais preve possivel, visto que terei que marcar junto ao polo e fazer a Objetiva e Discursiva. Grato Fico no aguardo Att.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "Logica de Programação e Algoritmo",
+		  "start": 57,
+		  "end": 90
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Prezado(a) Professor(a), Peço encarecidamente que seja feito uma reanalise na minha nota da prova Discursiva, a qual foi lançado 25. Eu precisava tirar pelo menos 40, pois necessito disso para uma vaga de emprego, não posso aguardar até Outubro para fazer a prova de exame. Respondi todas as questões e tinha conhecimento das mesmas, já que todas foram vistas em Apol's e mesmo no conteúdo da disciplina, apenas não tive tempo para testar os códigos, porém o raciocínio está correto. Agradeço desde já a atenção. ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Prezado(a) Professor(a)",
+		  "start": 0,
+		  "end": 23
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia! Novamente estou pedindo ajuda de vocês com relação a minha nota da disciplina RACIOCÍNIO LÓGICO da prova discursiva pois está \"0\" já liguei falei com varias pessoas da central,mandei e-mail e ainda não tive nenhum retorno. por favor atualizem a minha nota pois estou sendo prejudicado. aguardo retorno",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia!",
+		  "start": 0,
+		  "end": 8
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "RACIOCÍNIO LÓGICO",
+		  "start": 87,
+		  "end": 104
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia, Caros senhores, quero fazer uma reclamação, andei notando minhas notas nas ultimas Apols, e mesmo tendo certeza que acertei todas estou recebendo apenas 80%, já que agora está escondendo os gabaritos fica complicado observar, mas para minha segurança, desde a segunda eu anotei e salvei minhas respostas, quero uma explicação o porquê isso está acontecendo, ou a justificativa para o mesmo. Para exemplo vou mandar a que respondi ontem 22/07/2019 Agradeço a atenção e aguardo retorno!!",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Na Atividade Pratica da disciplina de LÓGICA DE PROGRAMAÇÃO E ALGORITMOS (ENTREGUE em 23/07/18 (23:49h)) a questao 5/10 o meu algoritmo está mais enxuto, correto e coeso que o da resposta de vocês, por isso peço que revisem minha nota nesta questão pois foi cumprido perfeitamente o que foi pedido no enunciado. Aproveitando, recebi um e-mail com oportunidade para refazer minha apol 3 desta mesma disciplina, pois fiquei com nota 60. Obrigado!",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "LÓGICA DE PROGRAMAÇÃO E ALGORITMOS",
+		  "start": 38,
+		  "end": 72
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde, Professor! Entendo, sei que a correção não foi feita por você. Eu desenvolvi os quatros algoritmos, aplicando os comentários em cada um, e print dos códigos em funcionamento...Quero entender o que tinha de errado, de acordo com uma pequena explicação que foi dada, abaixo do trabalho, anexado, diz que foi os exercícios errados...segui passo a passo do arquivo em pdf e o modelo, com exemplo, que foram disponibilizados na Aula Prática 16 da disciplina. você pode verificar o que hove para mim? Desde já, agradeço compreensão, e desculpe qualquer coisa.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde Quero saber o motivo do trabalho enviado ter sido avaliado com nota 0,visto que segui o descritivo da aula pratica 16.Desenvolvi todos os exercícios contidos na solicitação da atividade pratica. Desenvolvi o código com todos os comentários exigidos e com a tela do programa em simulação.O avaliador cobrou o exercício 5 porem não consta na solicitação.Espero ser levado em consideração todo o trabalho feito ao qual dediquei bastante tempo e esforço para fazer,pois tenho muitas dificuldades com a matéria. ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde, Referente a correção de minha atividade pratica, questão 7 de 10. Peço a reavaliação da mesma, pois o desenvolvimento da questão esta diferente da resposta do gabarito, mas a funcionalidade do algoritmo é a mesma. Segue o arquivo do Visualg em anexo com o desenvolvimento conforme resposta de minha pergunta. Aguardo um retorno . Atenciosamente. Paulo H. Dalpiva. ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"FERRAMENTA"
+	  ],
+	  "points": [
+		{
+		  "text": "Visualg",
+		  "start": 244,
+		  "end": 251
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "boa noite! Gostaria que reavaliassem minha media final em Logica, como podem ver sempre obtive boas notas, neste período tive alguns problemas e não fui bem nas provas, mas creio que por 0,4 décimos eu não poderia ficar em exame, será que não poderei fazer um trabalho ou apol, para poder conseguir essa Nota? Por favor preciso de ajuda, por problemas pessoais não acho justo ficar em exame, porque estou com média 6.6",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "boa noite!",
+		  "start": 0,
+		  "end": 10
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde, Tenho uma dúvida referente a questão da prova discursiva de exame da disciplina (questão 1 ao qual gostaria que reavaliassem) Fundamentos de Sistema de Informação, fui orientado entrar em contato pela tutoria de alguma disciplina que tivesse aberto, pois a da disciplina em questão encerra-se encerrado. A questão da disciplina ao qual respondi responde perfeitamente a questão, porem foi descontado nota na prova.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "Fundamentos de Sistema de Informação",
+		  "start": 137,
+		  "end": 173
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite Prof Vinicius, Devido ao meu trabalho perdi as datas das provas regulares e realizei a 2 chamada das provas objetivas e discursiva. Com isso com a soma das notas fiquei com a media de 68,8. Poderia por favor avaliar minha prova discursiva de 2 chamada na qual fiquei com a nota de 50. Pois com a nota verificada pelo sr fosse para 55 alcançaria a media 70 para passar na sua disciplina. certo de sua compreensão att Leonardo augusto santos Xavier RU - 101335 ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite Prof Vinicius",
+		  "start": 0,
+		  "end": 23
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Ola na APOL 2 de Logica de programação e algoritimos , mesmo eu acertando todas as questões minha nota foi 80, gostaria de saber o motivo, desde já agradeço.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "Logica de programação e algoritimos",
+		  "start": 17,
+		  "end": 52
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá, professor. Minha nota da segunda tentativa da atividade prática ainda não saiu. Ela será corrigida normalmente como a primeira e irá substituir a primeira nota?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá, professor.",
+		  "start": 0,
+		  "end": 15
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá professor! Fiz as provas do exame hoje... Tem como verificar a discursiva, se tirei uma nota Boa? Só para saber se ainda prossigo com o trabalho ou não...",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá",
+		  "start": 0,
+		  "end": 3
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa Tarde, Estou estudando para a prova da disciplina, e revisando as apols, na apol 4 questão 5 o sistema retorna como questão correta, porém nota 0, conforme documento em anexo. Aguardo retorno! Atenciosamente, Jéssica Lemos ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa Tarde, Estou estudando para a prova da disciplina, e revisando as apols, na apol 4 questão 5 o sistema retorna como questão correta, porém nota 0, conforme documento em anexo. Aguardo retorno! Atenciosamente, Jéssica Lemos ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "bom dia prof, eu fiz o trabalho, com muita dificuldade. passei algumas noites em claro para fazer os exercícios. entretanto não mandei em pdf. e agora estou em recuperação por isso, n tem como reavaliar? precisava só de 0,5.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite, Recebi hoje a nota da minha prova discursiva no exame. Na correção das questões tirei nota 82.5, porém a nota lançada foi 0. É possível corrigir aqui ou preciso entrar em contato com a coordenação do curso? Obrigado.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá! Gostaria de uma revisão na minha nota da prova discursiva de Lógica de Algoritmos e Programação. Meu código bate certinho com os gabaritos porém na primeira questão me deram nota 0. Cada uma vale 25 pontos? Porque nas demais que também está certo o código me deram 20?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia. Gostaria de saber quando sairá a nota final dessa disciplina. Realizei a prova discursiva dia 04/06 e a Atividade Prática e ainda não sairam as notas (print no arquivo). Obrigado",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite! Tenho um trabalho para realizar, na disciplina de Lógica de Programação e Algoritmos, porém não aparece o peso desse trabalho na minha nota.Gostaria de saber se tem algum peso, pois tem prazo de entrega, critérios de avaliação mas não diz nada a respeito da valoração. ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "Lógica de Programação e Algoritmos",
+		  "start": 61,
+		  "end": 95
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite, respondi a apol2 e tirei nota 40, mas quando comecei estudar a as aulas 4,5,6 para apol3, notei que os assuntos para apol2 que tirei nota baixa , estava nessas aulas e não nas aulas que foi orientado estudar para apol2.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Apol 4 data entrega erea dia 17-10 tinha finalizado ela e agora esta no sistema que abri ela no dia 11-10- e fechei no dia 18-10 com nota zero. ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Ola professor gostaria de saber pq minha nota final do semrstre deu 64,5 e minha nota do exame 34 gostaria de saber se nao averia a possibilidade de um acrescimo de 1,5 na minha nota pra mim passa na sua materia.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "boa tarde, por favor gostaria de saber que nota tirei na atividade pratica. ainda nao saiu as notas nao sei se e normal...?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "boa tarde,",
+		  "start": 0,
+		  "end": 10
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde aos tutores com posso entender minha nota no desenpenho que esta 51 se eu tirei 80 na discursiva como funciona estou com esta duvida",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Professor Vinicius minha duvida e com chega nessas notas pois eu tirei na prova discursiva 83 e no local do desempenho esta 51 essa e minha duvida muito obrigado desde já ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá, tudo bem ? Gostaria de saber porque a nota da prova foi 0 a prova discursiva ? Se quer consigo ver o gabarito também. Obrigada desde já ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá, tudo bem ?",
+		  "start": 0,
+		  "end": 15
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite, minha nota final ainda não foi postada. Poderia por favor me passar, pois preciso saber se fiquei ou não em recuperação. Aguardo.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia Minha Nota do PBL não foi ainda lançada no sistema na matéria de logica! ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde, Pq minha nota ainda não saiu? Estou aguardando a resposta",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa Tarde, Professora! Gostaria de Saber porque a Avaliação Pratica com 3 questões apenas, eu acertei as 3 questões e tirei 67 pontos? Att.Jadilson Alves",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa Tarde, Professora!",
+		  "start": 0,
+		  "end": 22
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite professor, peço a gentileza que reabra minha apol 3 e 4 acabei ficando com zero na nota agradeço dese ja ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite professor",
+		  "start": 0,
+		  "end": 19
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde! Caro tutor, com quem devo falar para questionar uma nota, que eu acredito ter tirado a menor, da minha prova discursiva?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde!",
+		  "start": 0,
+		  "end": 10
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá, fui com nota 40 na Apol 2 e gostaria de saber se posso refazer. Havia uma pergunta com duas respostas iguais (e ambas estavam certas) então marquei a primeira e tive a nota descontada... ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá, Gostaria de saber se passei na matéria, pois tirei 80 na objetiva e 56 na subjetiva e tem as POLs. Se não passei, como devo proceder?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Por favor verificar o que aconteceu com nota da APOL 02 está marcando 80 porém não tem nenhuma questão errada no gabarito segue em anexo o gabarito. Desde já grato.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "APOL 4 pontos, Prova Objetiva 3 pontos e a prova discursiva 5 pontos, tem um erro ai quero saber o valor correto, a media da atividade pratica sera junto com da prova discursiva ou com as APOL?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Não há uma outra forma de substituir essa nota da discursiva, de refazer ou fazer um extenso trabalho, sei lá? Eu sei a matéria e sei desenvolver os sistemas, mas não deu tempo.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde professor, Gostaria de saber quando sairá a nota da AP, pois farei as provas finais esta semana e preciso estudar em cima do que errei. Obrigada!",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia. Quando será publicado a nota da atividade prática? Obrigado.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "ola bom dia, gostaria que vcs reavesse minha atividade pratica de logica de programaçao. ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "ola bom dia",
+		  "start": 0,
+		  "end": 11
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "logica de programaçao",
+		  "start": 66,
+		  "end": 87
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite, tirei 40 na Apol 1 creio que esteja errado algumas respostas.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": " Boa noite professor, gostaria que revisa-se as notas da minha atividade prática, pois simulei todos os algoritmos antes de enviar e estão funcionando perfeitamente, acho que essa nota não condiz com a realidade. Ex: Na questão dois, as informações que tem no gabarito também tem na resposta.(imagem anexo). ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite professor",
+		  "start": 1,
+		  "end": 20
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"KEYWORD"
+	  ],
+	  "points": [
+		{
+		  "text": "algoritmos",
+		  "start": 104,
+		  "end": 114
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde. Gostaria de entender porque minha nota na atividade prática de LÓGICA DE PROGRAMAÇÃO E ALGORITMO foi apenas 30 ??? Todos os algoritmos que pedia na atividade foram testados no visualg antes de transcrever no ava e todos funcionaram perfeitamente. Conforme foi dito repetidamente nas vídeo aulas, cada pessoa escreve o algoritmo do seu jeito. O importante é que a resposta esteja correta. Aguardo resposta.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde.",
+		  "start": 0,
+		  "end": 10
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "LÓGICA DE PROGRAMAÇÃO E ALGORITMO",
+		  "start": 74,
+		  "end": 107
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"FERRAMENTA"
+	  ],
+	  "points": [
+		{
+		  "text": "visualg",
+		  "start": 187,
+		  "end": 194
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia, gostaria que verificassem a nota da minha AP que está zerada pois a mesma foi ENTREGUE em 30/10/17 (19:09h) e não em 02/11/17 (04h) como consta. Ainda cheguei a perguntar através da tutoria se era necessário refazer e fui informada de que era opcional, e por isso optei por não refazer nem ela e nem a APOL 5. Gostaria de um retorno pois só estou aguardando isso para fazer a última prova, que é a discursiva. Obrigada!",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite! Há um erro de correção da minha ATIVIDADE PRÁTICA da matéria LÓGICA DE PROGRAMAÇÃO E ALGORITMOS. A pessoa ou o computador que corrigiu, me deu 80 na questão 8/10. Verifiquei o gabarito, e está igual, menos os nomes as minhas variáveis, e diga-se de passagem, eu posso dar o nome que eu quiser. O importante, é a lógica estar certa. Correto?! Favor rever o erro cometido. Obrigado! Protocólo: 2018072222350441E15CCD",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite!",
+		  "start": 0,
+		  "end": 10
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "LÓGICA DE PROGRAMAÇÃO E ALGORITMOS",
+		  "start": 72,
+		  "end": 106
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite professor,tudo bem? Eu gostaria de saber porque eu fui mau na APOL-01,tirei 30 pontos apenas,eu estava crente que iria tirar algo entre 80 e 90 pontos. No meu trabalho aprendi a programar CLP apenas lendo o manual do fabricante,sem curso nenhum,instalei programei e coloquei pra rodar,e agora nesta matéria similar me lasquei ,pode me ajudar? Outro detalhe foi que quando eu estava entre a quarta e quinta pergunta recebi uma mensagem que minha resposta não foi salva ,pedia para responder de volta.existe alguma relação com esta falha no servidor? Minhas escolhas foram: 1C,2A,3A,4C,5D,6D,7D,8A,9B,10B. obrigado aguardo.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite professor,tudo bem?",
+		  "start": 0,
+		  "end": 29
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa Noite, minha media nesta Matéria esta acima de 70 gostaria de saber porque não esta dando como concluida, grato!",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa Noite",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia professor, novamente não concordo com minha nota na prova discursiva de lógica de programação e algoritmo. Onde está meu erro na questão quatro?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia professor,",
+		  "start": 0,
+		  "end": 18
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde. Acabei de finalizar a APOL 4 e obtive a nota 89. Acho estranho, pois pensava que só poderia ser uma nota arredondada.Isso tá certo mesmo? ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Após verificar minha nota 20 na Atividade Pratica, realizei a conferência com o gabarito e verifiquei que ha divergências na correção. Segue em anexo os prints das 10 questões. Aguardo retorno, obrigado Att, Mustafa",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Gostaria de saber a respeito da minha atividade prática o motivo de uma nota tão baixa, pois estive olhando o gabarito e está igual a correção",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite, peço uma revisão sobre as minhas respostas nessa avalição, pois eu discordo da nota aplicada. Junto ao gabarito minhas respostas estão similares.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Professor, Exercício 5 está com divergência na fórmula, pois a fórmula está fazendo o somatório das APOLs e não a média das notas das APOLs. Faço conforme está a fórmula? Atenciosamente",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa Tarde, gostaria de saber o motivo de mesmo estando corretas algumas respostas da minha Atividade Pratica fiquei com 0",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa Tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Professora, saí do trabalho, rodei 110km para fazer as provas, porém tá tudo zerado! Muito estranho isso. A moça disse que somente a tutoria poderia liberar estas provas. ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "por favor, sabe dizer se fui aprovado na disciplina de logica de programacao,ou se ainda devo esta disciplina?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "logica de programacao",
+		  "start": 55,
+		  "end": 76
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Prezados, Estava avaliando o conteúdo do gabarito e as respostas da minha atividade prática e não entendi o porque da mesma está zerada. Poderiam verificar?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Prezados",
+		  "start": 0,
+		  "end": 8
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá Estou com o resultado reprovado média nessa cadeira. Mas notei que está liberado as provas de exames. Nesse caso posso fazer? Obrigada!",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá",
+		  "start": 0,
+		  "end": 3
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia, Professor! Não entendi a nota do trabalho, pode me explicar o que tinha de errado? ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "referente a esta matéria quantas apols são?( so tem 2 com valor4% e uma de valor30% sendo que outras matérias fora 4 com 4% e duas de 30%",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Mais uma informação que for possível , trabalho é de 4 questões, estou com 60 de médica se eu acerta duas questões, posso ficar com 70 de media? E não vou precisar fazer a prova objetiva e discursiva novamente? Obrigado! ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá Professor eu creio que não foi acrescentando no calculo de notas na media final junto com as avaliações que eu fiz.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá Professor",
+		  "start": 0,
+		  "end": 13
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde Professor, Ainda não tem a nota do trabalho para a média, o Senhor tem ideia de quando será a correção? Obrigada, Patricia",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde Professor",
+		  "start": 0,
+		  "end": 19
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia. Gostaria de saber se a nota da minha prova objetiva esta com a nota do trabalho ou se ainda vai ser somado? atenciosamente",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde, sobre o trabalho (atividade pratica ), o resultado do trabalho será atribuída juntamente a prova discursiva? Ou sera em nota separada?",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "boa tarde prof. Vinicius, já saiu a nota da atividade pratica, mas a disciplina ainda consta como pendente.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "boa tarde prof",
+		  "start": 0,
+		  "end": 14
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite professor A respeito da prova discursiva do 1º Bimestre, não tem a nota no portal ainda ou o professor ainda realizará a postagem? ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia, Olhando as minhas notas estou abaixo da média, o que preciso fazer agora? Marcar outra prova em exame? Obrigado, ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "boa noite como posso saber se entreguei direito o trabalho dos exercicios de logica de algoritmo, se poder me informar . obrigada",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "boa noite",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "bom dia. Você conseguiu Verificar minha situação para envio da atividade pratica no formato PDF novamente ou minha nota foi zero mesmo grato Dieison",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde!! fiz minha atividade pratica de lógica de programação ,testei os códigos no visualG antes de passar para o ambiente virtual onde estava sendo respondido o questionário, não houve problemas no visualG, peço que tenha uma revisão da minha prova pratica, pois acredito que a nota dada, nao seja a correta.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"DISCIPLINA"
+	  ],
+	  "points": [
+		{
+		  "text": "lógica de programação",
+		  "start": 43,
+		  "end": 64
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"FERRAMENTA"
+	  ],
+	  "points": [
+		{
+		  "text": "visualG",
+		  "start": 87,
+		  "end": 94
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"FERRAMENTA"
+	  ],
+	  "points": [
+		{
+		  "text": "visualG",
+		  "start": 203,
+		  "end": 210
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá boa tarde. Estou precisando tirar uma dúvida. Fui verificar agora minhas notas e percebi que tirei nota 38 na Atividade Prática, o que me assustou bastante. Ao conferir o gabarito eu observei que em algumas questões que tirei \"0.00\" está com a resposta idêntica ao do gabarito e não consegui saber o motivo da nota \"0.00\" pra essas questões. Eu gostaria de entender o que houve nas minhas respostas, vocês poderiam me informar por favor? Obrigado. ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá boa tarde.",
+		  "start": 0,
+		  "end": 14
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá professor, Eu já fiz e já entreguei a atividade prática. Já houve a correção no ambiente virtual e tirei nota 86. Não tenho dúvidas sobre a matéria e sim pela correção dessa atividade que enviei, pois fiz pesquisa, analisei e testei os códigos feito, comprovando sua funcionalidade com o que foi pedido em cada questão. Gostaria do feedback de quais questões foram consideradas erradas para que eu possa verificar onde foi o equivoco, se é que houve, uma vez que como temos várias maneira de fazer um código para solução de uma questão, verificar se está realmente errada. Obrigado!!",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá professor",
+		  "start": 0,
+		  "end": 13
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Olá, bom dia! Recebi uma mensagem no quadro de avisos informando que as Atividades Práticas das disciplinas dos cursos de Bacharelado em Engenharia passaram a valer 30% do total da média. Sendo assim, gostaria de saber qual é a média geral das Apols e das provas objetivas e discursivas após essa mudança. Desde já agradeço pelo esclarecimento!",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Olá",
+		  "start": 0,
+		  "end": 3
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "bom dia",
+		  "start": 5,
+		  "end": 12
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Bom dia. Hoje eu conferi o gabarito da atividade prática e quero pedir a revisão de 3 algoritmos que eu desenvolvi e deram a nota 0.00, pois eles estão funcionando corretamente e executando o pedido no enunciado.Todos algoritmos que desenvolvi no visualG foram testados antes de eu enviar as respostas. Os algoritmos foram: -Questão 2: Para calcular a área do quadrado. -Questão 6: Menor dos 3 números digitados. - Questão 9: Conversão de Celsius para Fahrenheit. Obrigado.",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia",
+		  "start": 0,
+		  "end": 7
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"FERRAMENTA"
+	  ],
+	  "points": [
+		{
+		  "text": "visualG",
+		  "start": 247,
+		  "end": 254
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Vinicius boa noite. A minha nota na atividade prática veio como zerada. Assim eu entreguei dentro do prazo e as programações rodaram. Estavam todas erradas? Grato.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Professor, boa noite! Eu percebi que minhas APOLs 2,3 e 4 estão com botão \"refazer\". Houve algum problema? Quanto a AP, a nota vai sair no link \"trabalhos\" ? Obrigado pela atenção.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde. Somente agora percebi esse erro no sistema. Na minha APOL4, a questão 1, eu acertei a questão mas o sistema considerou a nota 0. Teria como verificar por favor?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia Professor Estou sem a nota da prova discursiva. Não foi corrigindo ou eu zerei? Poderia por favor enviar o COD da aula de ontem? Muito obrigado! ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite! Professor desculpe o questionamento mais não entendi o fato de ter tirado nota zero no trabalho entreguei o mesmo todo no conforme como foi orientado",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá! Como faço pra ter acesso a correção da minha avaliação e pra contestar a nota? Porque no polo eu fiz a prova no Visual Studio, os 4 códigos funcionaram corretamente porém minha nota foi 60.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia Tive alguns problemas pessoais de saúde e acabei não entregando o trabalho de atividade pratica da disciplina, será que existe algum meio de recuperar esta nota perdida? Obrigado.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Obrigada pela força na atividade 4! Poxa professor, me dediquei ao máximo para esse trabalho... Não tem como reconsiderar? A nota do trabalho é essencial. :(",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Eu gostaria de verificar o porque de ter descontado pontos na questão 1 e questão 4 da prova discursiva se o resultado do programa é o que foi pedido.. A forma de como realizei é conforme está explicado no material da uninter.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Oi professor .... Eh que saiu de todos da sala praticamente , e a minha não e aínda fica aparecendo que estou de exame. Pelo menos que deu a entender. Aluno: Alexandre Moreira.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Saudações. Estou com a seguinte dúvida, simulei minhas notas e deu média 75 porém a matéria está como pendente e apresentando contagem regressiva para segunda chamada. Aguardo orientações.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa noite Professor, Desculpe, mas discordo da nota 12,5 na questão 1/4 da avaliação discursiva. O código está correto, o que diferencia do código da Uninter que foi citado no gabarito são as legendas (Textos) que foram incluídas no PrintF. No enunciado pede-se que retorne uma mensagem dizendo qual numero é o maior, e foi exatamente o que fiz. Gostaria que fosse reconsiderado a nota, uma vez que fiquei de \"exame\" porque alcancei 65 e não 70%, por muito pouco não consegui. Tive muita dificuldade no começo do curso e pensei em abandonar, me esforcei ao maximo para conseguir aprender as funções e montar códigos. Por favor, peço humildimente que reconsidere a nota.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "boa noite, postei a pratica no dia correto no dia 22/7 as 23:30 a 23:40 mais ou menos este horário e até agora não foi passado minha nota queria saber o que aconteceu?",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Olá, bom dia. Minha atividade pratica entregue no dia 22/07 ainda esta em processo de correção. Por conta disso estou até agora sem sabem se consegui alcançar a media da matéria. Tem uma previsão para finalizar essa correção? ",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Ola bom dia. Gostaria de saber se o trabalho pratico ja foi corrigido pois falta apenas a nota do mesmo para saber se fui aprovado na diciplina ou não. Muito obrigado.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde, Fiz a prova de exame e consta como nota 0, só que no gabarito das questões eu acertei algumas, gostaria que verificassem. Obrigada",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Bom dia Prof. Vinicius. Na guia simular notas não esta constando a nota de trabalho ao qual vale 20%. atenciosamente",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Bom dia Prof",
+		  "start": 0,
+		  "end": 12
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Professora Boa Noite! Nossa não entendi porque tirei uma nota tão baixa na atividade pratica. Por favor me diga o que foi que pequei, pois eu acredita que havia entendido a matéria que por sinal é muito interativa, onde por muitas vezes acabei nem prestando atenção na hora, e que por muitas vezes acabei avançando muito, e jurava que havia compreendido, não entendi por somente 30. Por favor me diga para que eu possa melhorar e tentar me recuperar. Obrigado e no aguardo",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Professora Boa Noite!",
+		  "start": 0,
+		  "end": 21
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Na Atividade Prática, questão 4/10, foi me retirado 0.7 pontos por simplesmente não copiar o algoritmo de uma aula , fazer sozinho utilizando o conhecimento adquirido, ainda, no enunciado desta questão pede-se : \"Faça um algoritmo que leia três valores e descubra qual o menor valor\", meu algoritmo faz exatamente isto, não pede no enunciado para colocar em ordem crescente como exibido no gabarito. Solicito que a nota seja revista. Na questão 6/10 (Soma dos quadrados) a mesma situação, fiz o algoritmo sem copiar do exercício, utilizando conhecimento adquirido e me foi retirado 0.2 pontos por isto. Na prova deverá ser feito CTRL+C e CTRL+V dos exercícios ou poderemos utilizar o cérebro para resolver as questões? Fica a dica. ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"KEYWORD"
+	  ],
+	  "points": [
+		{
+		  "text": "leia três valores",
+		  "start": 235,
+		  "end": 252
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"KEYWORD"
+	  ],
+	  "points": [
+		{
+		  "text": "menor valor",
+		  "start": 271,
+		  "end": 282
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"KEYWORD"
+	  ],
+	  "points": [
+		{
+		  "text": "ordem crescente",
+		  "start": 358,
+		  "end": 373
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"KEYWORD"
+	  ],
+	  "points": [
+		{
+		  "text": "Soma dos quadrados",
+		  "start": 451,
+		  "end": 469
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"KEYWORD"
+	  ],
+	  "points": [
+		{
+		  "text": "algoritmo",
+		  "start": 495,
+		  "end": 504
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Espero que voces me entendam, compreendam meu lado, minha dedicaçao, meu esforço em fazer certo, mesmo sabendo que eu errei, mas pelo menos eu tentei e nao desisti. Eu mais uma vez insisto em dizer que gosto muito do meu curso e uma coisa que me incentivou a me dedicar mais ainda foi depois que o MEC avaliou os cursos de Engenharia Eletrica e de Produçao com conceito 5, dois cursos de engenharia EAD avaliados pelo MEC com conceito máximo, isso é IMPRESSIONANTE, peço por favor mais uma vez que corrijam minha atividade, eu como disse já anexei ela em pdf(eu enviei ela em word na entrega do trabalho) nos comentarios anteriores, todos nós erramos, eu como futuro engenheiro sei que vou errar muito também, mas um pequeno erro desses me custou 30% da minha nota, ou seja todo meu esforço em pelo menos tentar fazer os exercícios propostos foram todos em vao, eu fico deprimido muito facilmente e quando eu vi essa nota 0 fiquei completamente chocado, isso tudo só por causa de um formato de um arquivo.POR FAVOR ME DEEM UMA SEGUNDA CHANCE E CORRIJAM MINHA ATIVIDADE, MESMO SABENDO QUE ELA NAO ESTA PERFEITA EU PELO MENOS TENTEI, PASSEI HORAS ME ESFORÇANDO, PESQUISANDO, E TODO ESFORÇO MERECE UMA RECOMPENSA.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Boa tarde, Solicito uma revisão de nota ZERO, na questão 6/10, da Atividade Prática, que pede a construção de um algoritmo que leia 3 números e mostre o menor valor. O algoritmo que consta na solução não condiz como enunciado, pois pede ordem decrescente. Segue o algoritmo e o teste no visualG, que ao ler os números 2,3,9 mostra que o menor é o 2. O que não justifica tal nota, uma vez que o algoritmo construído mostrou qual o menor numero dentre os 3 digitados. Peço revisão da nota, e mostre onde está erro do algoritmo criado, a ponto de não receber nota nenhuma. Grata, Karina Algoritmo \"Menor Valor\" Var // Seção de Declarações das variáveis i: inteiro menor,valor:real Inicio // Seção de Comandos, procedimento, funções, operadores, etc... menor<-999999999 para i de 1 ate 3 faca escreval(\"Digite um valor:\") leia(valor) se (valor<menor)entao menor<-valor fimse fimpara escreval(\"O menor valor é:\",menor) Fimalgoritmo TESTE NO VISULG Digite um valor: 2 Digite um valor: 3 Digite um valor: 9 O menor valor é: 2 >>> Fim da execução do programa !",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"KEYWORD"
+	  ],
+	  "points": [
+		{
+		  "text": "ordem decrescente",
+		  "start": 237,
+		  "end": 254
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"KEYWORD"
+	  ],
+	  "points": [
+		{
+		  "text": "algoritmo",
+		  "start": 264,
+		  "end": 273
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"FERRAMENTA"
+	  ],
+	  "points": [
+		{
+		  "text": "visualG",
+		  "start": 287,
+		  "end": 294
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa noite, Meu caro Mais eu ja realizei a prova e não deu tempo para finalizar todas as questões como que faço, vou ficar com nota baixa poderia me ajuda de alguma maneira não queria ficar com nota baixa. Não foi me passado que estava liberado o visualg e com relação o tempo poderia aumentar o tempo de prova para 90 minuto? Me desculpa qualquer coisa por que é decepcionante não conseguir terminar a prova. Obrigado",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa noite",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Boa tarde, gostaria de saber porque o valor da minha prova discursiva 2 chamada esta com o valor de 25 sendo que eram quatro questões e eu respondi as quatro, duas eram de algoritmos onde eu usei o VisualG e duas eram de perguntas e respostas. Isso ja aconteceu antes em outra materia onde recebi uma nota errada e me disseram que eu deveria pagar 30 reais para rever a prova, nao acho isso correto pq ao ver o gabarito qualquer pessoa desprovida do conhecimento da materia ira ver que a resposta esta igual a correta. Tem algo errado nesse processo. Obrigado",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Boa tarde",
+		  "start": 0,
+		  "end": 9
+		}
+	  ]
+	}
+  ]
+]
+},
+{
+"content": "Sei que nao mereço tirar nota maxima na minha atividade, pois achei um pouco complexo os exercicios, talvez seja porque eu nunca havia visto programaçao antes .Contudo sei que tambem nao mereço tirar nota zero, pois me esforcei, me dediquei muito. Mais uma vez eu peço a compreensao do tutor responsavel e peço por favor que corrija minha atividade, ela agora já está em PDF anexada no outro comentario, que eu fiz acima.Me ajude, mais uma vez eu digo que amo meu curso de Engenharia EAD, mas nao quero ser reprovado na materia por um erro bobo desses.",
+"intent": "Nota",
+"annotation": []
+},
+{
+"content": "Caro professor e/ou tutor, acredito que a correção de minha atividade pratica foi feita com muita rigidez, visto que é a primeira vez que estou tendo contato com linguagem de programação e estou tendo muita dificuldade de assimilar, mas estou tentando. Entendo que todos os detalhes (erros) devem ser levados em consideração na ora da correção, mas peço que releve os erros básicos de principiante e reavalie a atividade. Estou indo bem nas outras disciplinas, vc pode verificar. Senão não reconsiderar a nota, não terei a mínima chance de ser aprovado. ",
+"intent": "Nota",
+"annotation": [
+  [
+	{
+	  "label": [
+		"CUMPRIMENTO"
+	  ],
+	  "points": [
+		{
+		  "text": "Caro professor",
+		  "start": 0,
+		  "end": 14
+		}
+	  ]
+	}
+  ],
+  [
+	{
+	  "label": [
+		"KEYWORD"
+	  ],
+	  "points": [
+		{
+		  "text": "linguagem de programação",
+		  "start": 162,
+		  "end": 186
+		}
+	  ]
+	}
+  ]
+]
+  }

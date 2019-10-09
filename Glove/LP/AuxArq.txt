@@ -1,0 +1,367 @@
+A geração do programa executável a partir do programa fonte obedece a uma
+seqüência de operações antes de tornar-se um executável. Depois de escrever o
+módulo fonte em um editor de textos, o programador aciona o compilador que no UNIX
+é chamado pelo comando cc. Essa ação desencadeia uma seqüência de etapas, cada
+qual traduzindo a codificação do usuário para uma forma de linguagem de nível
+inferior, que termina com o executável criado pelo lincador.
+A sintaxe são regras detalhadas para cada construção válida na linguagem C.
+Estas regras estão relacionadas com os tipos, as declarações, as funções e as
+expressões.
+Os tipos definem as propriedades dos dados manipulados em um programa.
+As declarações expressam as partes do programa, podendo dar significado a
+um identificador, alocar memória, definir conteúdo inicial, definir funções.
+As funções especificam as ações que um programa executa quando roda.
+A determinação e alteração de valores, e a chamada de funções de I/O são
+definidas nas expressões.
+As funções são as entidades operacionais básicas dos programas em C, que
+por sua vez são a união de uma ou mais funções executando cada qual o seu trabalho.
+Há funções básicas que estão definidas na biblioteca C. As funções printf() e scanf()
+por exemplo, permitem respectivamente escrever na tela e ler os dados a partir do
+teclado. O programador também pode definir novas funções em seus programas, como
+rotinas para cálculos, impressão, etc.
+Todo programa C inicia sua execução chamando a função main(), sendo
+obrigatória a sua declaração no programa principal.
+Comentários no programa são colocados entre /* e */ não sendo considerados
+na compilação.
+Cada instrução encerra com ; (ponto e vírgula) que faz parte do comando.
+São nomes usados para se fazer referência a variáveis, funções, rótulos e
+vários outros objetos definidos pelo usuário. O primeiro caracter deve ser uma letra ou
+um sublinhado. Os 32 primeiros caracteres de um identificador são significativos. É
+case sensitive, ou seja, as letras maiúsculas diferem das minúsculas.
+Quando você declara um identificador dá a ele um tipo. Os tipos principais
+podem ser colocados dentro da classe do tipo de objeto de dado. Um tipo de objeto de
+dados determina como valores de dados são representados, que valores pode
+expressar, e que tipo de operações você pode executar com estes valores.
+Uma implementação do compilador pode mostrar um faixa maior do que a
+mostrada na tabela, mas não uma faixa menor. As potencias de 2 usadas significam:
+O operador de atribuição em C é o sinal de igual "=". Ao contrário de outras
+linguagens, o operador de atribuição pode ser utilizado em expressões que também
+envolvem outros operadores.
+Os operadores *, /, + e - funcionam como na maioria das linguagens, o operador
+% indica o resto de uma divisão inteira.
+Relação refere-se as relações que os valores podem ter um com o outro e
+lógico se refere às maneiras como essas relações podem ser conectadas. Verdadeiro
+é qualquer valor que não seja 0, enquanto que 0 é falso. As expressões que usam
+operadores de relação e lógicos retornarão 0 para falso e 1 para verdadeiro.
+Tanto os operadores de relação como os lógicos tem a precedência menor que os
+operadores aritméticos. As operações de avaliação produzem um resultado 0 ou 1.
+O C fornece operadores diferentes para incrementar variáveis. O operador
+soma 1 ao seu operando, e o decremento subtrai 1. O aspecto não usual desta
+notação é que podem ser usado como operadores pré-fixo(++x) ou pós-fixo(x++).
+O nível de precedência dos operadores é avaliado da esquerda para a direita.
+Os parênteses podem ser utilizados para alterar a ordem da avaliação.
+Podemos forçar uma expressão a ser de um determinado tipo usando o
+operador cast.
+O operador sizeof retorna o tamanho em bytes da variável, ou seja, do tipo que está em seu operando. É utilizado para assegurar a portabilidade do programa.
+É uma função de I/O, que permite escrever no dispositivo padrão (tela).
+A expressão de controle pode conter caracteres que serão exibidos na tela e os
+códigos de formatação que indicam o formato em que os argumentos devem ser
+impressos. Cada argumento deve ser separado por vírgula.
+A tabela ASCII possui 256 códigos de 0 a 255, se imprimirmos em formato
+caractere um número maior que 255, será impresso o resto da divisão do número por
+256; se o número for 3393 será impresso A pois o resto de 3393 por 256 é 65.
+Também é uma função de I/O implementada em todos compiladores C. Ela é o
+complemento de printf() e nos permite ler dados formatados da entrada padrão
+(teclado). Sua sintaxe é similar a printf().
+scanf("expressão de controle", argumentos);
+A lista de argumentos deve consistir nos endereços das variáveis. C oferece um
+operador para tipos básicos chamado operador de endereço e referenciado pelo
+símbolo "&" que retorna o endereço do operando.
+Operador de endereço &:
+A memória do computador é dividida em bytes, e são numerados de 0 até o
+limite da memória. Estas posições são chamadas de endereços. Toda variável ocupa
+uma certa localização na memória, e seu endereço é o primeiro byte ocupado por ela.
+Os comandos de controle de fluxo são a essência de qualquer linguagem,
+porque governam o fluxo da execução do programa. São poderosos e ajudam a
+explicar a popularidade da linguagem. Podemos dividir em três categorias. A primeira
+consiste em instruções condicionais if e switch. A segunda são os comandos de
+controle de loop o while, for e o do-while. A terceira contém instruções de desvio
+incondicional goto.
+Se a condição avaliar em verdadeiro (qualquer coisa menos 0), o computador
+executará o comando ou o bloco, de outro modo, se a cláusula else existir, o
+computador executará o comando ou o bloco que é seu objetivo.
+Uma variável é testada sucessivamente contra uma lista de variáveis inteiras ou
+de caracteres. Depois de encontrar uma coincidência, o comando ou o bloco de
+comandos é executado.
+Uma variável é testada sucessivamente contra uma lista de variáveis inteiras ou
+de caracteres. Depois de encontrar uma coincidência, o comando ou o bloco de
+comandos é executado.
+Se nenhuma coincidência for encontrada o comando default será executado. O
+default é opcional. A seqüência de comandos é executada até que o comando break
+seja encontrado.
+O comando for é de alguma maneira encontrado em todas linguagens
+procedurais de programação.
+ Em sua forma mais simples, a incialização é um comando de atribuição que o
+compilador usa para estabelecer a variável de controle do loop. A condição é uma
+expressão de relação que testa a variável de controle do loop contra algum valor para
+determinar quando o loop terminará. O incremento define a maneira como a variável
+de controle do loop será alterada cada vez que o computador repetir o loop.
+Uma maneira possível de executar um laço é utilizando o comando while. Ele
+permite que o código fique sendo executado numa mesma parte do programa de
+acordo com uma determinada condição.
+o comando pode ser vazio, simples ou bloco
+ele é executado desde que a condição seja verdadeira
+testa a condição antes de executar o laço
+Quando o comando break é encontrado em qualquer lugar do corpo do for, ele
+causa seu término imediato. O controle do programa passará então imediatamente
+para o código que segue o loop.
+Algumas vezes torna-se necessário "saltar" uma parte do programa, para isso
+utilizamos o "continue".
+A matriz é um tipo de dado usado para representar uma certa quantidade de
+variáveis que são referenciados pelo mesmo nome. Consiste em locações contíguas
+de memória. O endereço mais baixo corresponde ao primeiro elemento.
+Os vetores de dados podem ser inicializados como os dados de tipos simples,
+mas somente como variáveis globais. Quando for inicializar uma matriz local sua
+classe deve ser static.
+A verificação de limites não é feita pela linguagem, nem mensagem de erros
+são enviadas, o programa tem que testar os limites das matrizes.
+Em C não existe um tipo de dado string, no seu lugar é utilizado uma matriz de
+caracteres. Uma string é uma matriz tipo char que termina com '\0'. Por essa razão
+uma string deve conter uma posição a mais do que o número de caracteres que
+sedeseja. Constantes strings são uma lista de caracteres que aparecem entre aspas,
+não sendo necessário colocar o '\0', que é colocado pelo compilador.
+É utilizada para leitura de uma string através do dispositivo padrão, até que o
+ENTER seja pressionado. A função gets() não testa limites na matriz em que é
+chamada.
+Escreve o seu argumento no dispositivo padrão de saída (vídeo), coloca um '\n'
+no final. Reconhece os códigos de barra invertida.
+É uma variável que contém o endereço de outra variável. Os ponteiros são
+utilizados para alocação dinâmica, podendo substituir matrizes com mais eficiência.
+Também fornecem a maneira pelas quais funções podem modificar os argumentos
+chamados, como veremos no capítulo de funções.
+Desde que os pointers são variáveis, eles podem ser manipulados como as
+variáveis podem. Se py é um outro ponteiro para um inteiro então podemos fazer a
+declaração:
+py=px;
+Os ponteiros podem aparecer em expressões, se px aponta para um inteiro x,
+então *px pode ser utilizado em qualquer lugar que x seria.
+O operador * tem maior precedência que as operações aritméticas, assim a
+expressão abaixo pega o conteúdo do endereço que px aponta e soma 1 ao seu
+conteúdo.
+y=*px+1;
+No próximo caso somente o ponteiro será incrementado e o conteúdo da
+próxima posição da memória será atribuído a y:
+y=*(px+1);
+Os incrementos e decrementos dos endereços podem ser realizados com os
+operadores ++ e --, que possuem procedência sobre o * e operações matemáticas e
+são avaliados da direita para a esquerda:
+*px++; /* sob uma posição na memória */
+*(px--); /* mesma coisa de *px-- */
+No exemplo abaixo os parênteses são necessários, pois sem eles px seria
+incrementado em vez do conteúdo que é apontado, porque os operadores * e ++ são
+avaliados da direita para esquerda.
+(*px)++ /* equivale a x=x+1; ou *px+=1 */
+Um ponteiro para um ponteiro é uma forma de indicação múltipla. Num ponteiro
+normal, o valor do ponteiro é o valor do endereço da variável que contém o valor
+desejado. Nesse caso o primeiro ponteiro contém o endereço do segundo, que aponta
+para a variável que contém o valor desejado.
+float **balanço;
+balanço é um ponteiro para um ponteiro float.
+O erro chamado de ponteiro perdido é um dos mais difíceis de se encontrar,
+pois a cada vez que a operação com o ponteiro é utilizada, poderá estar sendo lido ou
+gravado em posições desconhecidas da memória. Isso pode acarretar em
+sobreposições sobre áreas de dados ou mesmo área do programa na memória.
+int,*p;
+x=10;
+*p=x;
+Estamos atribuindo o valor 10 a uma localização desconhecida de memória. A
+conseqüência desta atribuição é imprevisível.
+Em C existe um grande relacionamento entre ponteiros e matrizes, sendo que
+eles podem ser tratados da mesma maneira. As versões com ponteiros geralmente são
+mais rápidas.
+Considerando a declaração da matriz int a[10];
+Sendo pa um ponteiro para inteiro então:
+pa=&a[0]; /*passa o endereço inicial do vetor a para o ponteiro pa */
+pa=a; /* é a mesma coisa de pa=&a[0]; */
+x=*pa; /*(passa o conteúdo de a[0] para x */
+Se pa aponta para um elemento particular de um vetor a, então por definição
+pa+1 aponta para o próximo elemento, e em geral pa-i aponta para i elementos antes
+de pa e pa+i para i elementos depois.
+Se pa aponta para a[0] então:
+*(pa+1) aponta para a[1]
+pa+i é o endereço de a[i] e *(pa+i) é o conteúdo.
+Sendo um ponteiro para caracter char *texto;:, podemos atribuir uma constante
+string para texto, que não é uma cópia de caracteres, somente ponteiros são
+envolvidos. Neste caso a string é armazenada como parte da função em que
+aparecem, ou seja, como constante.
+Char *texto="composto"; /* funciona como static char texto[]=“composto”; */
+A declaração de matrizes de ponteiros é semelhante a qualquer outro tipo de
+matrizes:
+int *x[10];
+Para atribuir o endereço de uma variável inteira chamada var ao terceiro
+elemento da matriz de ponteiros:
+x[2]=&var;
+Verificando o conteúdo de var:
+*x[2]
+As matrizes de ponteiros são tradicionalmente utilizadas para mensagens de
+erro, que são constantes :
+char *erro[]={"arquivo não encontrado\n","erro de leitura\n"};
+printf("%s",erro[0]);
+printf("%s",erro[1]);
+É uma unidade autônoma de código do programa é desenhada para cumprir
+uma tarefa particular. Geralmente os programas em C consistem em várias pequenas
+funções. A declaração do tipo da função é obrigatória no C do UNIX. Os parâmetros de
+recepção de valores devem ser separados por vírgulas.
+Sintaxe:
+tipo nome(parâmetros);
+{ comandos}
+Quando uma função não retorna um valor para a função que a chamou ela é
+declarada como void.
+Quando uma função utiliza argumentos, então ela deve declarar as variáveis
+que aceitaram os valores dos argumentos, sendo essas variáveis os parâmetros
+formais.
+O valor de um argumento é copiado para o parâmetro formal da função,
+portanto as alterações no processamento não alteram as variáveis.
+Permite a alteração do valor de uma variável. Para isso é necessário a
+passagem do endereço do argumento para a função.
+Uma função pode chamar outras funções, mas o código que compreende o
+corpo de uma função (bloco entre {}) está escondido do resto do programa, ele não
+pode afetar nem ser afetado por outras partes do programa, a não ser que o código
+use variáveis globais. Existem três classes básicas de variáveis: locais, estáticas e
+globais.
+As variáveis que são declaradas dentro de uma função são chamadas de locais.
+Na realidade toda variável declarada entre um bloco { } podem ser referenciadas
+apenas dentro deste bloco. Elas existem apenas durante a execução do bloco de
+código no qual estão declaradas. O armazenamento de variáveis locais por default é
+na pilha, assim sendo uma região dinâmica.
+São conhecidas por todo programa e podem ser usadas em qualquer parte do
+código. Permanecem com seu valor durante toda execução do programa. Deve ser
+declarada fora de qualquer função e até mesmo antes da declaração da função main.
+Fica numa região fixa da memória própria para esse fim.
+Funcionam de forma parecida com as variáveis globais, conservando o valor
+durante a execução de diferentes funções do programa. No entanto só são
+reconhecidas na função onde estão declaradas. São muitos utilizadas para inicializar
+vetores.
+ No ambiente C existe uma maneira de passar argumentos através da linha de
+comandos para um programa quando ele inicia. O primeiro argumento (argc) é a
+quantidade de argumentos que foram passados quando o programa foi chamado; o
+segundo argumento (argv) é um ponteiro de vetores de caracteres que contém os
+argumentos, um para cada string.
+Por convenção argv[0] é o nome do programa que foi chamado, portanto argc é
+pelo menos 1. Cada argumento da linha de comando deve ser separado por um
+espaço ou tab.
+Ao manusearmos dados muitas vezes deparamos com informações que não são
+fáceis de armazenar em variáveis escalares como são os tipos inteiros e pontos
+flutuantes, mas na verdade são conjuntos de coisas. Este tipo de dados são
+compostos com vários dos tipos básicos do C. As estruturas permitem uma
+organização dos dados dividida em campos e registros.
+Como ocorre com as variáveis, as estruturas também podem ser referenciadas
+por ponteiros. Assim, definindo-se por exemplo o ponteiro *p para a estrutura acima
+(lapis), pode-se usar a sintaxe (*p).dureza. Porém, para referenciar o ponteiro há
+ainda outra sintaxe, através do operador -> , como por exemplo, p->dureza.
+Há duas maneiras de armazenar variáveis na memória do computador. Primeiro
+por variáveis globais e static locais, segundo através de alocação dinâmica, quando o
+C armazena a informação em uma área de memória livre, de acordo com a
+necessidade. No caso do C standart, a alocação dinâmica fica disponível com a
+inclusão de stdio.h.
+Para tratar de arquivos a linguagem C fornece um nível de abstração entre o
+programador e o dispositivo que estiver sendo usado. Esta abstração é chamada fila
+de bytes e o dispositivo normalmente é o arquivo. Existe um sistema bufferizado de
+acesso ao arquivo, onde um ponteiro de arquivo define vários aspectos do arquivo,
+como nome, status e posição corrente, além de ter a fila associada a ele.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

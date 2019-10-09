@@ -1,0 +1,186 @@
+O objetivo da aula é conhecer os principais conceitos das estruturas sequencial e de seleção, tanto em pseudocódigo quanto na linguagem de programação C, bem como representar facilmente os algoritmos nas diferentes estruturas para resolver problemas computacionais.
+Construir um algoritmo pressupõe obedecer a uma ordem predeterminada a fim de que sejam dados os passos corretos, à luz de certas regras dentro de uma sequência lógica, para resolver o problema computacional. Tais regras vão desde a sintaxe da linguagem escolhida até a ordenação dos comandos necessários para o algoritmo. A seguir, aprenderemos as estruturas usadas na construção de algoritmos, com alguns exemplos em fluxograma, pseudocódigo e linguagem C.
+É uma estrutura que realiza um conjunto predeterminado de instruções de forma sequencial, de cima para baixo, na ordem em que foram declaradas (Guedes, 2014; Puga e Rissetti, 2016).   Sua estrutura básica é a repetição de comandos sequencialmente, conforme demonstrado pela Figura 1: 
+A estrutura sequencial de um algoritmo pode ser facilmente representada por meio de fluxograma, pseudocódigo e linguagem C, conforme os seguintes exemplos.
+Considere um algoritmo que somará dois números inteiros quaisquer. Para este exemplo, temos, como entrada, dois números inteiros (numero1 e numero2) e, como saída, um número inteiro (resultado), que recebe o resultado de numero1 + numero2. 
+Considere um algoritmo que somará dois números inteiros e obterá a média entre ambos. Para este exemplo, temos, como entrada, dois números inteiros (numero1, numero2) e, como saída, um número inteiro (media), que recebe o resultado de (numero1 + numero2) / 2.
+Considere um algoritmo que receberá dois números inteiros e, ao final, mostrará a soma, a subtração, a multiplicação e a divisão desses números. 
+Uma estrutura de seleção viabiliza escolher um grupo de ações (bloco) a ser executado quando determinadas condições, representadas por expressões lógicas ou relacionais, são satisfeitas ou não. Eis os tipos de seleção: simples, composta, encadeada e de múltipla escolha (Guedes, 2014). 
+As estruturas de seleção simples são utilizadas para testar certa condição antes de executar determinada ação. Se a condição for atendida, um conjunto de instruções deverá ser executado; se não for atendida, o fluxo da execução do algoritmo seguirá após o fim do bloco de decisão (Guedes, 2014; Puga; Rissetti, 2016).  Toda condição pode ser interpretada como uma pergunta, cuja resposta é verdadeira ou falsa. Vejamos, a seguir, a sintaxe da estrutura de seleção simples em fluxograma, pseudocódigo e linguagem C.  A Figura 2 mostra a sintaxe da estrutura de seleção na representação algorítmica em fluxograma, em que a figura geométrica na qual está escrito “condição” corresponde à condição prévia para a execução de determinada ação: se verdadeira (.v.), segue o fluxo de instruções, representado pela segunda figura geométrica; se a condição for falsa (.f.), encerra-se o algoritmo. 
+O exemplo a seguir mostra a sintaxe da estrutura de seleção na representação algorítmica em pseudocódigo. Os comandos só serão executados após testada a condição contida em “Se (<condição>) então”: se verdadeira (.v.), segue o fluxo de instruções representado por “<comandos>”; se a condição for falsa (.f.), encerra-se o algoritmo.
+Do mesmo modo, na sintaxe da estrutura de seleção na linguagem de programação C, a condição testa previamente determinada ação para ver se continua o fluxo, no comando “if (<condição>)”: se verdadeira (.v.), obedecerá às instruções representadas por “<comandos>”; se a condição for falsa (.f.), encerra-se o algoritmo. Confira o exemplo. 
+Na linguagem de programação C, é obrigatório o uso de parênteses, não há o “então” e, se houver apenas um comando em <comandos>, as chaves não são necessárias. Eis alguns exemplos de estrutura de seleção simples em fluxograma, pseudocódigo e linguagem C. 
+Considere um algoritmo que pegará dois números inteiros, comparará se o primeiro é maior do que o segundo e, por fim, imprimirá na tela uma mensagem informando o resultado da comparação. Para este exemplo, temos, como entrada, dois números inteiros (a, b) e, como saída, uma mensagem de texto. 
+Considere um algoritmo que pegará dois números inteiros, comparará se o primeiro é diferente do segundo e, por fim, imprimirá na tela uma mensagem informando o resultado da comparação. Para este exemplo, temos, como entrada, dois números inteiros (X, Y) e, como saída, uma mensagem de texto.
+Considere um algoritmo que pegará dois números inteiros, comparará se o primeiro é igual ao segundo e, por fim, imprimirá na tela usuário uma mensagem informando o resultado da comparação. Para este exemplo, temos, como entrada, dois números inteiros (X, Y) e, como saída, uma mensagem de texto.
+A estrutura de seleção composta prevê dois conjuntos de instruções, após a avaliação da condição: um conjunto caso a resposta da condição resulte verdadeira; o outro, por sua vez, se resultar falsa (Guedes, 2014; Puga; Rissetti, 2016). A Figura 3 mostra a sintaxe da estrutura de seleção composta representada em um fluxograma. 
+O próximo exemplo contempla a sintaxe da estrutura de seleção composta na representação algorítmica em pseudocódigo, cujo funcionamento é simples: com base no resultado da condição (verdadeiro ou falso), o fluxo do algoritmo segue para um dos blocos de instruções. 
+Eis um exemplo de estrutura de seleção composta em fluxograma, pseudocódigo e linguagem C. 
+Considere um algoritmo que pegará dois números inteiros, comparará se o primeiro é diferente do segundo e, por fim, imprimirá na tela uma mensagem com o resultado dessa comparação. 
+Uma estrutura de seleção encadeada é formada pela combinação de estruturas de seleção simples e compostas, uma dentro da outra, não havendo limite para o número de combinações e podendo, em alguns casos, gerar um código bastante complexo (Puga, 2016). Vejamos, a seguir, a sintaxe da estrutura de seleção encadeada em fluxograma, pseudocódigo e linguagem C.  A Figura 4 mostra a sintaxe da estrutura de seleção na representação algorítmica em fluxograma.
+O próximo exemplo demonstra a sintaxe da estrutura de seleção encadeada na representação algorítmica em pseudocódigo. Se a primeira condição resultar verdadeira, o algoritmo testará a segunda condição, cujo resultado, se verdadeiro, executará o primeiro conjunto de instruções; se for falso, executará o segundo conjunto de instruções. Caso o resultado do teste da primeira condição seja falso, a segunda sequer será executada e, assim, o terceiro conjunto de instruções entrará em ação. 
+O seguinte exemplo foi criado com uma estrutura encadeada, cuja lógica difere um pouco da Figura 4.  Considere um algoritmo que pegará dois números inteiros e testará para ver se o primeiro é igual ao segundo. Se a condição for verdadeira, ele imprimirá uma mensagem na tela do usuário; a segunda condição, por seu turno, só entrará em ação caso o resultado da primeira condição seja falso.
+Uma estrutura de seleção de múltipla escolha é uma solução para substituir várias estruturas de decisão (se-então-senão) aninhadas. Também conhecida como estrutura escolha-caso, ela permite ir diretamente ao bloco de instruções desejado, submetendo-se ao valor de uma variável de verificação.  Vejamos, a seguir, a sintaxe da estrutura de seleção de múltipla escolha em fluxograma, pseudocódigo e linguagem C.  A Figura 5 demonstra a sintaxe da estrutura de seleção na representação algorítmica em fluxograma.
+O próximo exemplo contempla a sintaxe da estrutura de seleção de múltipla escolha na representação algorítmica em pseudocódigo. 
+Eis alguns exemplos de estrutura de seleção de múltipla escolha em fluxograma, pseudocódigo e linguagem C. 
+Considere um algoritmo que pegará um número e retornará o dia da semana equivalente a ele. 
+Nesta aula, aprendemos os principais conceitos que envolvem as estruturas sequencial e de seleção (simples, composta, encadeada e de múltipla escolha), além de como utilizá-los nas representações algorítmicas: 1) fluxograma; 2) pseudocódigo; 3) linguagem de programação C. Aproveite a disciplina e bons estudos!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,138 @@
+O objetivo desta aula é conhecer os principais conceitos e aplicações de vetor, matriz e cadeia de caracteres, como declará-los e inicializá-los. Bem como representá-los em pseudocódigo e linguagem C para resolver problemas computacionais. 
+Vetor ou array é uma variável composta homogênea unidimensional. Isso quer dizer que se trata de um conjunto de variáveis do mesmo tipo, que possuem o mesmo identificador (nome) e são alocadas sequencialmente na memória (Ascencio, 2012). Como as variáveis têm o mesmo nome, para localizar a posição de um item em um vetor, usamos um número inteiro, chamado de índice, para referência de sua localização dentro da estrutura.  Exemplo de declaração de um vetor usando linguagem de programação C:
+int temp[10]; 
+A Figura 1, a seguir, mostra a estrutura representativa do exemplo anterior, um vetor de números inteiros. 
+No exemplo da Figura 1 temos um vetor com o nome de temp, do tipo inteiro, com dez posições. Onde, 18 é o elemento com índice 0, 17 é o elemento com índice 1, 20 é o elemento com índice 2 e assim por diante.  Para manipular um determinado elemento em um vetor, é necessário fornecer o identificador (nome) e o índice do elemento, é o índice que determina a posição na qual o elemento se encontra. Cada elemento pode ser manipulado individualmente, basta indicar sua posição usando o índice (Puga; Rissetti, 2016).  Já uma Matriz é um vetor de vetores. Assim como no vetor, cada item da matriz é acessado por um número inteiro chamado de índice, que armazena vetores em uma estrutura de dados com duas ou mais dimensões (Ascencio, 2012). Em uma matriz, todos os itens também têm que ser do mesmo tipo de dado para formar suas tabelas na memória. Exemplo de declaração de matriz com 2 dimensões usando linguagem C 
+int temp[3][2]; 
+Nesse exemplo, o valor 3 representa a quantidade de linhas e o valor 2 representa a quantidade de colunas, compondo uma matriz do tipo 3 X 2 com capacidade de armazenamento de até seis elementos (itens) do tipo int (inteiro). Para cada dimensão da matriz é necessário utilizar um índice para posicionar a linha, outro para a coluna. Daí o nome matriz bidimensional (dois índices).
+Declarar um vetor é dar um nome seguindo uma sintaxe préestabelecida pela linguagem de programação que será usada para a construção do algoritmo. A declaração de um vetor deve conter três informações:  
+Nome do vetor (identificador). Número de posições (tamanho). Tipo de dado que será armazenado. 
+ Quando declaramos um vetor de tamanho quatro, alocamos na memória do computador quatro posições para armazenar os elementos com o mesmo nome.  E o termo inicializar um vetor é colocar elementos nos espaços nesses alocados na memória.   Para inicializar os valores 7.6, 8.9, 9 e 9.9 em um vetor com o nome nota, teremos a seguinte estrutura, mostrada na Tabela 2. 
+O exemplo a seguir mostra a sintaxe do vetor anterior na representação algorítmica em pseudocódigo: 
+NomeDoVetor: Vetor[inicio..final] de TipoDoVetor.
+O “NomeDoVetor” é o identificador, “Vetor[inicio..final]” define o início e o fim da posição dos elementos e “de TipoDoVetor” é o tipo da coleção de variáveis. 
+Esta declaração define um vetor chamado “nota”, que armazena um conjunto de números inteiros identificados como nota[1], nota[2], nota[3] e nota[4]. Temos, então, um conjunto de números inteiros, cada qual em um endereço sequencial diferente, identificado pelo índice do vetor e localizado dentro dos colchetes [ ]. Desta forma, nota[1] guarda o primeiro número inteiro, nota[2] guarda o segundo número inteiro e assim sucessivamente, até chegar no nota[4], que contém o último número inteiro que será armazenado.   A sintaxe na linguagem C segue a mesma lógica com uma única diferença, o índice começa com o número “0” zero. A seguir, veremos a sintaxe da declaração de um vetor em C: 
+TipoDoVetor NomeDoVetor[QuantidadeDeElementos]; 
+Esta declaração define um vetor chamado “nota”, que armazena um conjunto de números do tipo “int” (inteiros) identificados como nota[0], nota[1], nota[2] e nota[3]. Desta forma, nota[0] que vai guardar o primeiro número inteiro, nota[1] guarda o segundo número inteiro e assim sucessivamente, até chegar no nota[3], que contém o último número inteiro que será armazenado.  Para esse exemplo, temos os seguintes índices: 0, 1, 2 e 3, totalizando quatro posições.  É importante ressaltar que na linguagem de programação C, o vetor é indexado a partir da posição zero
+Veja o exemplo a seguir: 
+int  úmeros[6] = {1, 2, 3, 4, 5, 6}; 
+O “int  úmeros[6] “ declara um vetor com 6 posições que vai do índice 0 até o índice 5, e o “= {1, 2, 3, 4, 5, 6};”  com índices 0, 1, 2, 3, 4 e 5, respectivamente.  Também podemos inicializar o vetor com apenas alguns elementos, veja o exemplo a seguir: 
+int numeros[6] = {1,2,3}; 
+Quando o número de itens inicializados é menor que o número total de itens do vetor, os itens não inicializados são automaticamente preenchidos com o valor zero.  Também é possível inicializar um vetor sem especificar a quantidade de elementos, Veja o exemplo abaixo: 
+int numerosInteiros[ ] = {3,6,7}; 
+Ou seja: 
+numerosInteiros[0] = 3; numerosInteiros[1] = 6; numerosInteiros[2] = 7; 
+Quando não especifica a quantidade de elementos, ao inicializar os elementos, o compilador faz a contagem dos itens e determina o tamanho do vetor automaticamente. Vetor com três elementos terá um tamanho de três posições.
+Para o exemplo anterior, temos várias saídas que depende de alguns testes que serão realizados. As primeiras saídas acontecem caso o usuário digite um número que não esteja entre o intervalo de 0 a 10. Para as três entradas (nota[0], nota[1] e nota[2]), o algoritmo fará um teste e caso o número digitado esteja fora do intervalo apresentará como saída uma mensagem pedindo para que o usuário digite um número novamente. A Figura 4 mostra as primeiras saídas do exemplo anterior:
+Repare que, enquanto o usuário não digitar um número entre o intervalo 0 e 10, o algoritmo vai continuar repetindo a mensagem para o usuário digitar o número entre o intervalo 0 e 10. Após testar todas as entradas, o algoritmo calcula a média das notas e executa um novo teste para verificar se o aluno foi aprovado ou reprovado. A Figura 5 mostra a saída desse teste:   Figura 5 – Saída do teste aprovado ou reprovado 
+Para esse exemplo, usamos apenas uma variável, um vetor, com o nome nota[ ], tanto para as entradas como para as saídas.   Como seria a implementação desse pseudocódigo na linguagem C? 
+Pegamos o exemplo usado no pseudocódigo (algoritmo "Exemplo2") e usamos a mesma lógica para resolver o problema com a linguagem de programação C. As primeiras saídas do teste verificaram se o número digitado está fora do intervalo de 0 a 10 e, caso a condição seja verdadeira, aparecerá uma mensagem de erro para que o usuário digite outro número.  Após os testes das entradas de dados, realiza-se o cálculo da média das notas e o resultado vai passar por um novo teste, cujo objetivo é verificar se a média é maior ou igual a 7. Se a média for maior ou igual a 7, o algoritmo vai imprimir na tela do usuário uma mensagem de aprovado acompanhado do valor da média, senão vai imprimir reprovado também acompanhado do valor da média. A Figura 6 mostra as primeiras saídas do algoritmo. Após os primeiros testes, o algoritmo mostrará na tela se o aluno foi aprovado ou reprovado. Conforme mostrado nas Figuras 7 e 8, respectivamente.
+Para esse exemplo, também usamos apenas uma variável, um vetor, com o nome nota[ ], tanto para as entradas como para as saídas. 
+Para uma matriz, é necessário combinar os dados internos com duas variáveis. Caso precise incluir a matrícula do aluno em um vetor, teremos algo como mostrado na Tabela 3. 
+Na Tabela 3 vemos a relação de duas variáveis em qualquer espaço da matriz; se precisar saber a Nota 3 da Matrícula 89541, terá que localizar a linha 89541 da Matrícula e cruzá-la com a coluna Nota 3, onde será localizado o valor 8.5, que corresponde à segunda nota da Matrícula 89541. O exemplo a seguir mostra a sintaxe da matriz na representação algorítmica em pseudocódigo: 
+NomeDaMatriz é o identificador, Vetor[inicio1..final1, ... ] define o início e o fim da posição dos elementos na linha, Vetor[ ... , inicio2..final2] define o início e o fim da posição dos elementos na coluna e TipoDeMatriz é o tipo da coleção de variáveis. 
+Na linguagem de programação C, assim como no vetor, a matriz também é indexada a partir da posição zero e segue a mesma lógica do pseudocódigo. A seguir, veremos a sintaxe da declaração de uma matriz em C: 
+Note que temos duas linhas: notas[0][] e notas[1][], e duas colunas: notas[][0] e notas[][2], em cada linha dessa temos 2 elementos que compõem uma coluna, compondo uma matriz com 4 posições.  Ou seja, é uma matriz de duas linhas e duas colunas.  Sempre o primeiro número é a linha e o segundo número é a coluna.  Para declarar uma matriz 2X4 e inicializá-la, devemos colocar cada linha entre chaves {}, e separá-las por vírgulas: 
+O “int numeros[2][4]” declara uma matriz do tipo inteiro, com o nome números, e com duas linhas e quatro colunas. A inicialização da matriz com os elementos anteriores ficaria:
+Na ciência da computação, programação string é um tipo de variável usada para armazenar cadeia de caracteres com conteúdo que pode ser alterado ou substituído por outros elementos para formar uma nova cadeia de caracteres (Mizrahi, 2008; Ascencio, 2012; Puga; Rissetti, 2016). Para escrever um texto, é necessário representar essa cadeia de caracteres. Por isso, usa-se a palavra-chave "string”, que é vista como sendo um tipo de dado que armazena os elementos da cadeia em uma sequência na memória, utilizando alguma codificação preestabelecida. A linguagem C não possui um tipo de dado similar à string. Em vez disso, para armazenar uma cadeia de caracteres, utiliza vetores (matrizes unidimensionais) da seguinte forma: 
+O tipo char armazena o índice da tabela ASCII correspondente ao caractere.  Para definir uma string em C, é necessário definir um vetor com o número máximo de caracteres da cadeia entre colchetes, [NúmeroDeElementos], que será igual ao número de elementos da tabela, menos um que foi reservado para o fim da cadeia com o valor zero (‘0’). 
+A sintaxe de um vetor em C para representar uma string começa com a definição dos dados que serão armazenados, do tipo “char”, seguido pelo nome do vetor “NomeDaString” e os colchetes que define a quantidade de elementos que será armazenado na memória “[NúmeroDeElementos]”.  char NomeDaString[NúmeroDeElementos]; char nome[8]; 
+Na linguagem C, a estratégia para armazenar caracteres foi usar um array (vetor). Os arrays já representam um conjunto de dados relacionados, que são acessados por um índice. Portanto, a palavra "UNINTER", em na linguagem de programação C, é um array que contém oito [8] posições, conforme mostrado a seguir: 
+Segundo Mizrahi (2008), o uso mais importante do vetor é aplicado à criação de tipos de dados para armazenar e manipular textos, palavras, nomes e sentenças.  Em outras palavras, cada texto, palavra, nome e sentença é um conjunto de caracteres, em que cada um ocupa um byte de memória, armazenado em sequência e terminado por um byte de valor zero ('0'). Cada caractere é um elemento independente no vetor e pode ser acessado por meio de um índice (Mizrahi, 2008).
+Uma string pode ser inicializada automaticamente pelo programa ou pode receber um valor por meio do teclado. Na linguagem C, deve-se inicializar a string, ou seja, preencher os espaços em branco da tabela, com caracteres, sabendo que ele vai necessariamente conter o caractere final da cadeia '\0' (Mizrahi, 2008; Ascencio, 2012).  Usa-se as duas formas, mostradas a seguir, para inicializar uma string no momento da sua declaração na linguagem de programação C: 
+No primeiro caso, a variável nome recebeu as letras separadamente (inclusive o caractere nulo (0). Por isso, cada uma das letras estava entre (' ') – esta é a maneira de identificar um caractere isoladamente. Já no segundo caso, a variável nome foi inicializada com uma palavra, recebendo automaticamente o caractere nulo. Por isso, a palavra UNINTER estava entre (" ") – esta é a maneira de identificar uma cadeia de caracteres (Ascencio, 2012).  Em ambos os casos, não precisou expressar o número de posições dentro dos colchetes, na inicialização o número foi definido automaticamente na inicialização da string. A seguir, veremos um exemplo de algoritmo usando string em pseudocódigo e Linguagem C: 
+Repare que a sintaxe do pseudocódigo reconhece a cadeia de caracteres sem precisar definir um vetor[ ]. Para o reconhecimento automático da cadeia de caracteres, basta declarar a variável como do tipo caractere. Nesse exemplo, criamos quatro variáveis para armazenar quatro cadeias de caracteres e imprimi-los na tela do usuário. Teremos o resultado mostrado na Figura 11. 
+Para o mesmo exemplo na linguagem C definimos quatro vetores do tipo char para armazenar as cadeias de caracteres. A função printf() não reconhece acentuação da língua portuguesa (pt-br); para resolver esse problema usamos função setlocale() da biblioteca locale.h, que vai usar o idioma padrão do sistema operacional. Como saída para esse algoritmo, teremos o resultado mostrado na Figura 12. 
+Nesta aula, aprendemos os principais conceitos que envolvem os principais conceitos e aplicações de vetor, matriz e cadeia de caracteres. Também tivemos uma introdução de como declará-los e inicializá-los nas construções de algoritmos em pseudocódigos e linguagem de programação C. Portanto, aproveite a disciplina e bons estudos. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

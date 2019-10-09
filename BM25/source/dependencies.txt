@@ -1,0 +1,6 @@
+pip install unidecode
+pip install PyPDF2
+pip install pymongo
+pip install Flask
+pip install rank-bm25
+python -m nltk.downloader all

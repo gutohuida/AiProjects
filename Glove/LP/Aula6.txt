@@ -1,0 +1,127 @@
+O objetivo desta aula é conhecer os principais conceitos e aplicações de procedimentos e funções e uma introdução de como declará-los nas construções de algoritmos para resolver problemas computacionais. 
+Procedimentos são estruturas que juntam um conjunto de comandos, que são executados no momento em que são chamados.  Ex.: O envio de um e-mail, impressão de caracteres na tela do usuário, entre outros.  Um procedimento (procedure), também conhecido como sub-rotina, é o que realiza uma determinada tarefa. Um algoritmo de procedimento é criado da mesma maneira que outro algoritmo qualquer, devendo ser identificado e possuir variáveis, operações e até funções (Ascencio, 2012; Puga; Rissetti, 2016). O procedimento é identificado com o nome <identificador> acompanhado de parênteses () e pode possuir ou não parâmetros (Puga; Rissetti, 2016). Quando o programa principal chama um procedimento, por meio do seu identificador, o controle do fluxo de execução do programa passa para o procedimento e, no momento em que o procedimento finalizar a tarefa, o controle do fluxo de execução retornará para o programa principal.  Para criar um procedimento em pseudocódigo, utiliza-se a seguinte estrutura:
+É importante ressaltar que, na linguagem de programação C, não existe o chamado procedimento propriamente dito. Em vez disso, usa-se apenas a sintaxe de uma função sem retorno. Diferenciar procedimentos e funções na linguagem C é simples: se não tem retorno, é um procedimento; se tem, é uma função. Assim, a linguagem de programação C baseia-se em não ter ou ter um retorno (Mizrahi, 2008). Nesse caso, usa-se void no tipo de retorno do cabeçalho da função e, se a função não for receber nenhum parâmetro, também colocamos o void no local da listagem dos parâmetros. Para criar um procedimento em linguagem de programação C, utiliza-se a seguinte estrutura:
+Para procedimentos, ou seja, para uma função do tipo void, devemos usar o comando return; sem nenhum parâmetro, como último comando do bloco. A seguir veremos um exemplo de procedimento em pseudocódigo e Linguagem C: 
+Considere um algoritmo que vai somar dois números usando um procedimento, e vai mostrar o resultado no programa principal. 
+No algoritmo em pseudocódigo acima, temos a chamada do procedimento por meio da identificação SOMA. Ao chamar SOMA, toda rotina dentro do algoritmo será executada. 
+Na linguagem de programação C, podemos dividir o algoritmo em dois arquivos. Um arquivo para o programa principal e o outro arquivo para o procedimento, conforme mostrado abaixo
+No algoritmo em linguagem C acima temos a chamada do procedimento através da identificação SOMA(). Quando o primeiro arquivo (programa principal) chamar o procedimento SOMA(), toda rotina dentro do segundo arquivo será executada.
+A função é um tipo especial de procedimento, também conhecida como sub-rotina. Trata-se de um conjunto de instruções construídas para cumprir uma tarefa específica e agrupadas numa unidade.  As grandes tarefas de computação são divididas em tarefas menores, pelas funções, que permitem que outros façam o reuso do código, em vez de partir do zero.  As funções podem frequentemente esconder detalhes de operações de partes do programa que não necessitam conhecê-las, esclarecendo o todo e facilitando mudanças (Mizrahi, 2008).  O uso de funções evita que o programador tenha de reescrever o mesmo código repetidas vezes. Por exemplo, em vários momentos no programa, que está sendo desenvolvido, teremos que calcular o quadrado de um número.  Um programa sem o uso de funções terá que reescrever o bloco de código sempre que precisar realizar um cálculo. Em vez disso, podemos saltar para um bloco que já faça o cálculo do quadrado de um número e voltar para a mesma posição de execução. Dessa forma, um simples conjunto de instruções do código pode ser executado repetidas vezes no mesmo programa sem a necessidade de reescrever tudo novamente (Puga; Rissetti, 2016).
+No pseudocódigo temos a função calcula_quadrado() que recebe a variável a do tipo inteiro e após o processamento retorna o resultado que será usado no código.
+Do mesmo modo, na linguagem de programação C, temos a função calcula_quadrado(), que recebe a variável numero do tipo inteiro e, após o processamento do dado digitado, retorna o seu resultado. Note que nesse exemplo a função calcula_quadrado() teve uma passagem de parâmetro do tipo inteiro armazenada na variável numero.  Qualquer sequência de instruções que apareça mais de uma vez no programa é candidata a ser uma função. O código de uma função é agregado ao programa uma única vez e pode ser executado muitas vezes no decorrer do programa.  Esse conceito de poder executar o mesmo bloco de código muitas vezes no decorrer do programa fortalece um princípio de linguagens estruturadas, que é o de dividir um programa em funções para evitar que blocos de código fiquem grandes demais e sejam difíceis de ler e entender. Dividir o código ajuda também na organização do programa, pois permite o reaproveitamento do código que já foi escrito pelo programador em outras partes do programa (Puga; Rissetti, 2016).
+Quando uma chamada de função é encontrada no momento em que o programa está sendo compilado, o compilador necessita que seja informado corretamente qual o tipo de retorno e os parâmetros da função, para que ele possa manipulá-los (Mizrahi, 2008). Para um melhor entendimento desse conceito, vejamos o exemplo abaixo: 
+Em uma função declara-se o tipo de dado de entrada e o de saída, conforme mostrado na Figura 5. O valor de retorno da função se dá com o comando return. Esse comando é sempre o último a ser executado por uma função, finalizado o bloco de instruções. O tipo void representa o “sem retorno”, ou seja, um retorno com conteúdo indeterminado. Conforme exemplo usado na página 5 na função SOMA( ). 
+Parâmetros são valores recebidos e/ou retornados por uma função. Esses valores são fornecidos quando uma função é chamada. É comum chamar os parâmetros de argumentos, embora este termo esteja associado ao valor de um parâmetro. 
+A Figura 6 divide o mesmo código em duas partes. Na primeira parte, o código está no seu formato original; na segunda parte, destacam-se os parâmetros formais e reais do algoritmo.  Os parâmetros formais só existem para o programa no momento da execução da função. Após sua execução, eles deixam de existir, diferentemente dos parâmetros reais, que podem ser usados tanto na chamada da função quanto em outros momentos no programa principal. A seguir, um exemplo na linguagem de programação C para demonstrar os parâmetros formais e reais. 
+As linguagens de programação permitem que os parâmetros sejam passados para as funções de duas maneiras, conforme mostrado a seguir:  
+Por valor – uma cópia do parâmetro é feita – um valor da expressão é calculado, e o valor resultante é passado para a execução da função; Por referência – o endereço de um parâmetro é passado na chamada da função. Com isso, a função pode modificar a variável diretamente, por exemplo, para a criação de funções que devolvem mais de um valor. 
+A passagem por valor pode ser usada e alterada dentro da função sem afetar a variável da qual ela foi gerada. Já na passagem por referência, passase o endereço onde esse parâmetro está localizado na memória, e é usada quando uma função precisa ser capaz de alterar os valores das variáveis usadas como argumentos (Mizrahi, 2008; Ascencio, 2012). 
+Na Figura 8, vemos que, na primeira linha, encontra-se a impressão do parâmetro 8 antes da execução da função; na segunda linha, o parâmetro foi modificado dentro da função pelo valor 9; e, na terceira linha, volta o dado que ainda está armazenado na memória na impressão do parâmetro depois da execução da função. A função scanf( ) da linguagem de programação C, que usamos em exemplos anteriores nas nossas aulas, também faz passagem de parâmetros por referência. Veja o exemplo a seguir: 
+Na Figura 9 vemos que na primeira linha aparece a impressão do parâmetro antes da execução da função; já na segunda linha aparece uma mensagem para informativa que pede para o usuário digitar um número inteiro;  na terceira linha, é o momento que o usuário digita o número 226, que logo é capturado e armazenado na memória pela função scanf( ); e na quarta linha temos a impressão do parâmetro que foi sobrescrito pela função. 
+Para que a passagem de um parâmetro seja por referência, basta colocar o símbolo “*” antes da sua definição dos parâmetros formais e o operador “&”,  na chamada do parâmetro (MIZRAHI, 2008). O uso do asterisco indica que esses parâmetros podem ser modificados dentro da função, ou seja, as alterações dos parâmetros sofridas dentro da função também serão sentidas fora dela, esses efeitos não ocorrem quando os parâmetros são passados por valor (sem o uso do asterisco (*)). 
+Na Figura 10, vemos que na primeira linha encontra-se a impressão do parâmetro antes da execução da função; na segunda linha, o parâmetro foi modificado dentro da função pelo valor 9; e, após a execução da função, na terceira linha, o dado modificado está armazenado na memória e sua alteração aparece na impressão fora da função.  Portanto, na passagem por valor, o parâmetro formal comporta-se como uma variável local, e as alterações feitas nessa variável não terão efeito sobre o parâmetro real, que pertence ao programa que fez a chamada. Na passagem por referência, o parâmetro formal comporta-se como se fosse uma variável global, em que todas as alterações feitas nesta variável são feitas no parâmetro real, e pode ser alterada pelo subprograma que vai continuar com o valor alterado (Mizrahi, 2008).
+Nesta aula aprendemos os principais conceitos e aplicações de funções, procedimentos. Também tivemos uma introdução de como declará-los nas construções de algoritmos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+O objetivo desta aula é conhecer os principais conceitos e aplicações das estruturas de repetições while (enquanto), do-while (repita-ate) e for (para), bem como representá-las em fluxograma, pseudocódigo e Linguagem C para resolver problemas computacionais.
+As estruturas de repetição também são conhecidas como laços (loops). Elas são a execução de um conjunto de ações uma vez, várias vezes ou nenhuma vez, dependendo de uma condição verdadeira ou falsa, resultado booleano da avaliação de uma expressão. Essa condição é chamada de expressão de controle ou condição de parada e está associada a um bloco de instruções (Puga; Rissetti, 2016). 
+Qualquer estrutura de repetição contém quatro elementos fundamentais:  
+Inicialização – determina a condição inicial da repetição. Condição – é a expressão booleana que, após cada leitura do corpo, avalia e determina se uma nova leitura deverá ser feita ou se a estrutura de repetição pode ser encerrada. Corpo – formado por todas as instruções que serão executadas repetidamente. Iteração – é a repetição de um conjunto de instruções, juntamente com a condição de terminação do laço. 
+As estruturas de repetição são utilizadas para executar repetidamente uma instrução ou bloco de instrução enquanto determinada condição estiver sendo satisfeita. Sua aplicação pode ser associada a determinadas situações nas quais temos que repetir o programa ou parte dele várias vezes (Guedes, 2014; Puga; Rissetti, 2016). Essas estruturas nem sempre possuem recursos para fazer o controle do número de vezes em que o laço deverá ser executado, necessitando de uma variável de controle, preferencialmente do tipo inteiro, funcionando como um contador e garantindo que o número de repetições seja finito (Puga; Rissetti, 2016). A variável contadora começa com um valor inicial e a condição para executar a iteração é o que define a quantidade de repetições do laço. No final de cada iteração, o valor da variável contadora é incrementado em um número definido pelo programador.  O incremento é um recurso que serve pera definir qual valor será somado à variável, por exemplo de 1 em 1 (padrão), de 2 em 2, de 3 em 3, entre outros (Puga; Rissetti, 2016). A Figura 1 mostra graficamente como funciona. 
+Ao examinar cuidadosamente a Figura 1, veremos, primeiro, a inicialização é executada, que é a sentença cont = 0. Isso modifica o valor da variável cont para 0. Então, o teste é executado. Como 0 < 10 é verdadeiro, o laço continua. Assim, o corpo da repetição é executado. Depois disso, o incremento é executado, que é a sentença cont + 1, que altera o valor da variável cont para 1.
+Esse processo de contagem vai de 0 até que a variável cont receba o número 9, totalizando 10 repetições. Depois disso, o contador é incrementado para 10 e o teste é encerrado, 10 < 10 é falso e o laço não continua. Com esse recurso conseguimos que as instruções sejam repetidas dez (10) vezes.
+Na estrutura de repetição while (enquanto), a execução de uma ou mais instruções de um bloco ou laço depende de uma condição de controle verificada no início ou na entrada do laço. Enquanto o resultado da condição for verdadeiro, o bloco de instruções é executado; caso contrário, ocorre o desvio para a primeira linha após esse bloco.  Vejamos a seguir a sintaxe da estrutura de repetição while em fluxograma, pseudocódigo e Linguagem C. A Figura 2 mostra a sintaxe da estrutura de while. 
+O exemplo a seguir mostra a sintaxe da estrutura de repetição while na representação algorítmica em pseudocódigo: 
+A sintaxe da estrutura de repetição while na linguagem de programação C se dá conforme mostrado no exemplo a seguir:
+A seguir, apresentam-se dois exemplos de estrutura de repetição while (enquanto) em fluxograma, pseudocódigo e Linguagem C. 
+Considere um algoritmo que vai imprimir na tela o número de vezes que foi executado o loop usando a estrutura de repetição while (enquanto). 
+Considere um algoritmo que vai pegar um número real, verificar se o usuário digitou um número entre 0 e 10, e imprimir na tela uma mensagem de aprovado, caso o aluno tenha nota igual ou acima de 7, ou mensagem de reprovado, caso o aluno tenha nota abaixo de 7. 
+A estrutura de repetição do-while (repita-até) é bastante similar ao laço while. Essa estrutura é utilizada em simulações em que se faz necessário executar o corpo do laço uma vez e depois avaliar a expressão de teste e criar um ciclo repetido (Mizrahi, 2008). Ou seja, temos a garantia de que o laço será executado uma vez. Vejamos a seguir a sintaxe da estrutura de repetição while em fluxograma, pseudocódigo e Linguagem C. A Figura 3 mostra a sintaxe da estrutura de dowhile (repita-até). 
+No pseudocódigo, o do-while é o repita-até. O exemplo a seguir mostra a sintaxe da estrutura de repetição while na representação algorítmica em pseudocódigo: 
+Para a linguagem de programação C a sintaxe da estrutura de repetição do-while começa com a palavra-chave do seguida de um bloco de uma ou mais instruções entre chaves e terminadas pela palavra-chave while, seguida de uma expressão de teste entre parênteses terminada por ponto e vírgula. Observe o exemplo a seguir:
+A seguir apresentam-se dois exemplos de estrutura de repetição do-while (repita-até) em fluxograma, pseudocódigo e Linguagem C. 
+Considere um algoritmo que vai contar de 10 até 40 usando a estrutura de repetição do-while
+Considere um algoritmo que vai criar um menu com duas opções de escolha, 1 para “Incluir”/2 para “Excluir”, e mostra na tela do usuário a opção escolhida. Enquanto o usuário digitar o número diferente de 1 e 2, o menu se repetirá usando a estrutura de repetição do-while. 
+Seguindo a mesma explicação do Exemplo 1, para funcionar no visualg substitua a condição do algoritmo ate ((opcao <> 1) e (opcao <> 2)) por ate ((opcao = 1) ou (opcao = 2)). 
+A estrutura de repetição for (para) é uma estrutura que apresenta no cabeçalho os elementos de inicialização, condição e iteração reunidos na forma e o corpo é organizado em seguida. O laço vai se repetir se o resultado da condição for verdadeiro, conforme mostrado pela representação algorítmica em fluxograma da Figura 4
+No pseudocódigo, o for é o para-faca. O exemplo a seguir mostra a sintaxe da estrutura de repetição for (para-faca) na representação algorítmica em pseudocódigo: 
+A inicialização da variável contadora é realizada implicitamente, com o valor <início> informado na declaração da estrutura para. A iteração é controlada pela condição que determina a quantidade de vezes que será repetida pelo valor <início> e <fim>. No final de cada iteração, o valor da variável contadora é incrementado em 1 (ou o valor declarado como <valor de incremento>). Do mesmo modo, na linguagem de programação C a estrutura de repetição for repete uma sequência de comandos por um determinado número de vezes. A inicialização, o teste e a iteração aparecem entre parênteses após a palavra-chave for, separadas por ponto e vírgula. O exemplo a seguir mostra a sintaxe da estrutura de repetição for na linguagem de programação C.  
+A seguir dois exemplos de estrutura de repetição for (para-faca) em fluxograma, pseudocódigo e Linguagem C: 
+Considere um algoritmo que faz a contagem decrescente de 1 até 30 e imprime na tela o resultado. 
+Considere um algoritmo que faz a contagem crescente de 1 até 30, de 3 em 3, e imprime na tela o resultado. 
+A diferença está na atualização, que aumenta o valor de número em três unidades a cada repetição do bloco. 
+ A Linguagem C permite a utilização de uma estrutura dentro de outra estrutura de repetição. Quando um laço faz parte do corpo de outro laço, dizemos que o laço interno é um laço aninhado (Mizrahi, 2008).  A seguir a sintaxe das três estruturas de repetições (while, do-while e for) alinhadas. 
+A seguir um exemplo do aninhamento de cada estrutura de repetição na linguagem de programação C. 
+Nesta aula aprendemos os principais conceitos que envolvem as estruturas repetição while (enquanto), do-while (repita-até) e for (para), e como utilizá-los nas representações algorítmicas – fluxograma, pseudocódigo e linguagem de programação C. Também tivemos uma introdução sobre as estruturas de repetições aninhadas, muito utilizadas nas construções de algoritmos quando precisamos testar algo dentro de um outro teste. Portanto, aproveite a disciplina e bons estudos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
