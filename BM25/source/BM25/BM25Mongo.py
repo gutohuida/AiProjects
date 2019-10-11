@@ -12,7 +12,7 @@ from pymongo.errors import BulkWriteError
 
 
 class BM25Scrapper:
-    def __init__(self,host=None,port=None,data_base=None,collection=None,stop_words=None,regex=r'[(\n)\.*]'):
+    def __init__(self,host=None,port=None,data_base=None,collection=None,stop_words=None,regex=r'[(\n).,?!]'):
         self.host = host
         self.port = port
         self.data_base_name = data_base
@@ -20,7 +20,7 @@ class BM25Scrapper:
         self.regex = regex
         self.stop_words = stop_words
         
-        self._start_mongo_db()    
+        #self._start_mongo_db()    
         
     def set_mongo_db(self,data_base):
         if self.client:
@@ -50,15 +50,19 @@ class BM25Scrapper:
     def _load_documments(self,path):
         self.not_found = []
         self.documments = []
+        self._start_mongo_db()    
         for filename in os.listdir(path):
             documment = self.collection.find_one({'title': filename})
             if not documment:
                 self.not_found.append(filename)
             else:
                 self.documments.append(documment)
+        self.client.close()        
 
     def load_all(self,key):
+        self._start_mongo_db()
         documments = self.collection.find({'disciplina':key})
+        self.client.close()
         return documments    
     
     def _insert_mongo(self,post):
@@ -77,12 +81,8 @@ class BM25Scrapper:
         post_file = []
         corpus_aux = []
         for filename in self.not_found:
-            #Abre pdf e extrai conteudo
-            #pdfFileObj = open(path+filename, 'rb')
-            #pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
-            #for i in range(pdfReader.numPages):
-            #    pageObj = pdfReader.getPage(i)
-            #    pdfs[filename] = (pageObj.extractText() if i == 0 else pdfs[filename]+' '+pageObj.extractText())
+
+            print(path+filename)
             pdfs[filename] = textract.process(path+filename, encoding = "utf-8").decode("utf-8")
             
             #Trata o arquivo extraido tokenizando, retirando caracteres especiais e deixando em minusculo o conteudo        
@@ -92,11 +92,12 @@ class BM25Scrapper:
 
             #Preenche os dados que seram inseridos no banco        
             corpus['title'] = filename
-            corpus['tokenizedText'] = corpus_aux
+            corpus['tokenizedText'] = ','.join(corpus_aux)
             corpus['disciplina'] = subject
             post_file.append(corpus)
             corpus = {}
             corpus_aux = []
+            
         #Insere todos os registros no banco    
         self._insert_mongo(post_file)
         #return post_file + self.documments

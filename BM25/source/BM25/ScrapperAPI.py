@@ -25,19 +25,12 @@ def getRanking():
     subject = request.args.get("subject")
     titles = []
     corpus = []
-    #for documment in scrapper.scrap(path):
-    #    titles.append(documment['title'])
-    #    corpus.append(documment['tokenizedText'])
+
     for documment in scrapper.load_all(subject):
         titles.append(documment['title'])
-        corpus.append(documment['tokenizedText'])
+        corpus.append(documment['tokenizedText'].split(','))
 
     classifier = BM25Okapi(corpus)
-    #Pega os N mais relevantes
-    #doc_scores = classifier.get_top_n(key_words,corpus,ndocs)
-    #response = {}
-    #for score in doc_scores:
-    #    response[titles[corpus.index(score)]] = None
 
     doc_scores = classifier.get_scores(key_words)
     score_tuple = []

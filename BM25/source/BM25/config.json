@@ -1,0 +1,6 @@
+{
+    "host" : "mongodb://corp-mongo-001,corp-mongo-002,corp-mongo-003",
+    "port" : 27017,
+    "data_base" : "Tutor",
+    "collection" : "LP"
+}
