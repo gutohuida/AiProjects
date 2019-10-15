@@ -51,24 +51,36 @@ class BM25Scrapper:
         self.not_found = []
         self.documments = []
         self._start_mongo_db()    
+        # for filename in os.listdir(path):
+        #     documment = self.collection.find_one({'title': filename})
+        #     if not documment:
+        #         self.not_found.append(filename)
+        #     else:
+        #         self.documments.append(documment)
         for filename in os.listdir(path):
-            documment = self.collection.find_one({'title': filename})
-            if not documment:
-                self.not_found.append(filename)
-            else:
-                self.documments.append(documment)
+            self.not_found.append(filename)
         self.client.close()        
 
     def load_all(self,key):
         self._start_mongo_db()
         documments = self.collection.find({'disciplina':key})
         self.client.close()
-        return documments    
-    
+        return documments
+
+    def load_list(self,key,names):
+        documments = []
+        self._start_mongo_db()
+        for name in names:
+            documments.append({"document":self.collection.find_one({"$and" : [{'disciplina' : key},{'title':unidecode(re.sub(r'( -* )| |-','_',name["nome"]))}]}),"url":name["url"]})
+            # documments.append(self.collection.find_one({'title':name}))
+        self.client.close()         
+        return(documments)
+
     def _insert_mongo(self,post):
         if self.collection and post:
             try:
-                result = self.collection.insert_many(post)
+                #result = self.collection.insert_many(post)
+                result = self.collection.insert_one(post)
                 return result
             except BulkWriteError as bwe:
                 return bwe.details
@@ -80,26 +92,33 @@ class BM25Scrapper:
         corpus = {}
         post_file = []
         corpus_aux = []
-        for filename in self.not_found:
+        for i in range(9):
+            for filename in self.not_found:
 
-            print(path+filename)
-            pdfs[filename] = textract.process(path+filename, encoding = "utf-8").decode("utf-8")
-            
-            #Trata o arquivo extraido tokenizando, retirando caracteres especiais e deixando em minusculo o conteudo        
-            for word in nltk.word_tokenize(unidecode(re.sub(self.regex,'',pdfs[filename].lower()))):
-                if word not in self.stop_words:
-                    corpus_aux.append(word)
+                print(path+filename)
+                pdfs[filename] = textract.process(path+filename, encoding = "utf-8").decode("utf-8")
+                
+                #Trata o arquivo extraido tokenizando, retirando caracteres especiais e deixando em minusculo o conteudo        
+                for word in nltk.word_tokenize(unidecode(re.sub(self.regex,'',pdfs[filename].lower()))):
+                    if word not in self.stop_words:
+                        corpus_aux.append(word)
 
-            #Preenche os dados que seram inseridos no banco        
-            corpus['title'] = filename
-            corpus['tokenizedText'] = ','.join(corpus_aux)
-            corpus['disciplina'] = subject
-            post_file.append(corpus)
-            corpus = {}
-            corpus_aux = []
-            
+                #Preenche os dados que seram inseridos no banco        
+                # corpus['title'] = filename
+                # corpus['tokenizedText'] = ','.join(corpus_aux)
+                # corpus['disciplina'] = subject
+                # post_file.append(corpus)
+                # corpus = {}
+                # corpus_aux = []
+
+                
+                post_file.append([','.join(corpus_aux),filename])
+                corpus_aux = []
+    
+        corpus['disciplina'] = subject
+        corpus['docs'] = post_file  
         #Insere todos os registros no banco    
-        self._insert_mongo(post_file)
+        self._insert_mongo(corpus)
         #return post_file + self.documments
 
       
