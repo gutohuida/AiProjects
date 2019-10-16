@@ -31,17 +31,36 @@ def EventDate(EventName):
     date = datetime.strptime(documment["Date"],'%Y-%m-%d')
     return date.strftime('%d de %B'), documment["Time"]
 
+def EventLocation(EventName):
+    db = DbConector(config["host"],config["port"],config["db_name"],"Events")
+    documment = db.findOne({"Name":unidecode(EventName)})
+    return  documment["Location"]    
+
 #main webhook
 @app.route('/webhook', methods=['GET', 'POST'])
 def webhook():
     req = request.get_json(force=True)
     intent = req["queryResult"]["intent"]["displayName"]
-
+   
     if intent == "EventDate":
         date, time = EventDate(req["queryResult"]["parameters"]["Events"])
-        return {"fulfillmentText":"O próximo {0} acontecerá dia {1} as {2}. Posso ajudar com mais alguma coisa?".format(req["queryResult"]["parameters"]["Events"],date,time)}
+        return {"fulfillmentText":"O próximo {0} acontecerá dia {1} as {2}.".format(req["queryResult"]["parameters"]["Events"],date,time)}
 
+    if intent == "EventLocationDate":
+        date, time = EventDate(req["queryResult"]["outputContexts"][1]["parameters"]["Events"])
+        return {"fulfillmentText":"Será no dia {0} as {1}. Posso ajudar com mais alguma coisa?".format(date,time)}
 
+    if intent == "EventLocation":
+        location = EventLocation(req["queryResult"]["parameters"]["Events"])
+        return {"fulfillmentText": "O {0} acontecerá no {1}.".format(req["queryResult"]["parameters"]["Events"],location)}
+
+    if intent == "EventDateLocal":
+        for value in req["queryResult"]["outputContexts"]:
+            if value["name"].endswith("eventdate-followup"):
+                event = value["parameters"]["Events"]
+
+        location = EventLocation(event)
+        return {"fulfillmentText": "Será no {0}. Posso ajudar em mais alguma coisa?".format(location)}
 
 # run the app
 if __name__ == '__main__':

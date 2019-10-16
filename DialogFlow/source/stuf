@@ -1,2 +1,24 @@
 O próximo $Events será dia 21 de outubro as 19:00.
 Posso ajudar com mais alguma coisa?
+
+https://thispointer.com/python-how-to-convert-datetime-object-to-string-using-datetime-strftime/
+https://stackoverflow.com/questions/38050182/how-to-generate-fixed-url-with-ngrok
+/* 1 */
+{
+    "_id" : ObjectId("5da702cdc4bf44b4bd2309a7"),
+    "Name" : "Business Session",
+    "Location" : "Distrito Spark - Av. Visc. de Guarapuava, 3263 - Centro, Curitiba",
+    "Date" : "2019-10-21",
+    "Time" : "19:00",
+    "Description" : "Filler"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5da74a79c4bf44b4bd231012"),
+    "Name" : "Let's Talk",
+    "Location" : "Distrito Spark - Av. Visc. de Guarapuava, 3263 - Centro, Curitiba",
+    "Date" : "2019-10-21",
+    "Time" : "19:00",
+    "Description" : "Filler"
+}
