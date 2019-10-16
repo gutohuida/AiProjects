@@ -48,7 +48,7 @@ def webhook():
 
     if intent == "EventLocationDate":
         date, time = EventDate(req["queryResult"]["outputContexts"][1]["parameters"]["Events"])
-        return {"fulfillmentText":"Será no dia {0} as {1}. Posso ajudar com mais alguma coisa?".format(date,time)}
+        return {"fulfillmentText":"Será no dia {0} as {1}. Mais alguma coisa?".format(date,time)}
 
     if intent == "EventLocation":
         location = EventLocation(req["queryResult"]["parameters"]["Events"])
@@ -60,7 +60,7 @@ def webhook():
                 event = value["parameters"]["Events"]
 
         location = EventLocation(event)
-        return {"fulfillmentText": "Será no {0}. Posso ajudar em mais alguma coisa?".format(location)}
+        return {"fulfillmentText": "Será no {0}. Mais alguma coisa?".format(location)}
 
 # run the app
 if __name__ == '__main__':
