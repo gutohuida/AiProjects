@@ -72,7 +72,7 @@ class BM25Scrapper:
         self._start_mongo_db()
         for name in names:
             documments.append({"document":self.collection.find_one({"$and" : [{'disciplina' : key},{'title':unidecode(re.sub(r'( -* )| |-','_',name["nome"]))}]}),"url":name["url"]})
-            # documments.append(self.collection.find_one({'title':name}))
+            
         self.client.close()         
         return(documments)
 

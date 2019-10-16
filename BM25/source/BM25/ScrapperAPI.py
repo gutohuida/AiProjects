@@ -36,12 +36,12 @@ def getRanking():
 
     doc_scores = classifier.get_scores(key_words)
     score_tuple = []
-
+    
     for pos, score in enumerate(doc_scores):
         score_tuple.append((titles[pos],score))
  
     response = {}
-    for tsorted in sorted(score_tuple, key=lambda tup: tup[1], reverse=True)[:ndocs]:
+    for tsorted in sorted(score_tuple, key=lambda tup: tup[1], reverse=True):
         response[tsorted[0]] = tsorted[1]
     
     return json.dumps(response)
@@ -71,6 +71,7 @@ def getRanking2():
     classifier = BM25Okapi(corpus)
 
     doc_scores = classifier.get_scores(key_words)
+    print(doc_scores)
     score_tuple = []
 
     for pos, score in enumerate(doc_scores):

@@ -2,6 +2,7 @@ import pymongo
 from pymongo import MongoClient
 
 
+
 class DbConector():
     def __init__(self,host,port,db_name,collection_name):
         self.host = host
@@ -27,4 +28,10 @@ class DbConector():
 
     def closeDB(self):
         self.client.close()
+
+    def findOne(self,query):
+        self.initDB()
+        documment = self.collection.find_one(query)   
+        self.closeDB()
+        return documment
 
