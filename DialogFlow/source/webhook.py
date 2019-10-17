@@ -13,8 +13,6 @@ locale.setlocale(locale.LC_TIME, 'pt_BR.utf8')
 with open('./config.json') as file:
     config = json.load(file)
 
-#Instatiate Data base handler
-db = DbConector(config["host"],config["port"],config["db_name"],config["collection_name"])    
 
 # initialize the flask app
 app = Flask(__name__)
@@ -28,13 +26,30 @@ def index():
 def EventDate(EventName):
     db = DbConector(config["host"],config["port"],config["db_name"],"Events")
     documment = db.findOne({"Name":unidecode(EventName)})
-    date = datetime.strptime(documment["Date"],'%Y-%m-%d')
-    return date.strftime('%d de %B'), documment["Time"]
+    if documment["Date"]:
+        date = datetime.strptime(documment["Date"],'%Y-%m-%d')
+        return date.strftime('%d de %B'), documment["Time"]
+    return None, None   
 
 def EventLocation(EventName):
     db = DbConector(config["host"],config["port"],config["db_name"],"Events")
     documment = db.findOne({"Name":unidecode(EventName)})
-    return  documment["Location"]    
+    if documment["Location"]:
+        return  documment["Location"]    
+    return None
+
+def Events():
+    db = DbConector(config["host"],config["port"],config["db_name"],"Events")
+    documments = db.findAll({})
+    events = []
+    for documment in documments:
+        events.append(documment["Name"])
+    return events
+
+def EventDescription(EventName):
+    db = DbConector(config["host"],config["port"],config["db_name"],"Events")    
+    documment = db.findOne({"Name":unidecode(EventName)})
+    return documment["Description"]
 
 #main webhook
 @app.route('/webhook', methods=['GET', 'POST'])
@@ -42,25 +57,58 @@ def webhook():
     req = request.get_json(force=True)
     intent = req["queryResult"]["intent"]["displayName"]
    
+    ##Verifica a data de um evento especifico
     if intent == "EventDate":
         date, time = EventDate(req["queryResult"]["parameters"]["Events"])
-        return {"fulfillmentText":"O próximo {0} acontecerá dia {1} as {2}.".format(req["queryResult"]["parameters"]["Events"],date,time)}
+        if date:
+            return {"fulfillmentText":"O próximo {0} acontecerá dia {1} as {2}. Posso ajudar com algo a mais?".format(req["queryResult"]["parameters"]["Events"],date,time)}
+        return {"fulfillmentText": "O próximo {0} ainda não tem data marcada. Posso ajudar com algo a mais?".format(req["queryResult"]["parameters"]["Events"])}    
 
-    if intent == "EventLocationDate":
-        date, time = EventDate(req["queryResult"]["outputContexts"][1]["parameters"]["Events"])
-        return {"fulfillmentText":"Será no dia {0} as {1}. Mais alguma coisa?".format(date,time)}
+    ##Verifica a data de um evento caso ele esteja no branch local ou consulta de evento especifico
+    if intent == "EventLocationDate" or intent == "EventConsultDate":
+        for value in req["queryResult"]["outputContexts"]:
+            if value["name"].endswith("eventlocation-followup") or value["name"].endswith("eventconsult-followup"):
+                event = value["parameters"]["Events"]
 
+        date, time = EventDate(event)
+        if date:
+            return {"fulfillmentText":"Será no dia {0} as {1}. Algo a mais?".format(date,time)}
+        return {"fulfillmentText": "Ainda não possui data marcada. Algo a mais?"}    
+
+    ##Verifica o local de um evento especifico
     if intent == "EventLocation":
         location = EventLocation(req["queryResult"]["parameters"]["Events"])
-        return {"fulfillmentText": "O {0} acontecerá no {1}.".format(req["queryResult"]["parameters"]["Events"],location)}
+        if location:
+            return {"fulfillmentText": "O {0} acontecerá no {1}. Posso ajudar com algo a mais?".format(req["queryResult"]["parameters"]["Events"],location)}
+        return {"fulfillmentText": "O {0} ainda não tem local definido. Posso ajudar com algo a mais?".format(req["queryResult"]["parameters"]["Events"])}
 
+    ##Verifica o local de um evento caso ele esteja no branch de data 
     if intent == "EventDateLocal":
         for value in req["queryResult"]["outputContexts"]:
             if value["name"].endswith("eventdate-followup"):
                 event = value["parameters"]["Events"]
 
         location = EventLocation(event)
-        return {"fulfillmentText": "Será no {0}. Mais alguma coisa?".format(location)}
+        if location:
+            return {"fulfillmentText": "Será no {0}. Mais alguma coisa?".format(location)}
+        return {"fulfillmentText": "Ainda não tem local definido. Mais alguma coisa?"}
+
+    ##Consulta quais iniciativas o GBG possui
+    if intent == "Events":
+        events = Events()
+        return {"fulfillmentText": "O GBG Curitiba possui as seguintes iniciativas: {0}. Gostaria de saber mais sobre alguma delas?".format(', '.join(events))} 
+
+    ##Retorna a descrição de um evento dentro dos brachs de consulta de evento geral ou especifico
+    if intent == "EventsYes" or intent == "EventConsult":
+        if "outputContexts" in req["queryResult"]:
+            for value in req["queryResult"]["outputContexts"]:
+                if value["name"].endswith("events-followup") or value["name"].endswith("eventconsult-followup"):
+                    event = value["parameters"]["Events"]
+        else:
+            event = req["queryResult"]["parameters"]["Events"]
+
+        eventDescription = EventDescription(event)
+        return {"fulfillmentText":'{0} Poderia ajudar em algo a mais?'.format(eventDescription)}       
 
 # run the app
 if __name__ == '__main__':

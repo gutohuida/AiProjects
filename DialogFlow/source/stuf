@@ -3,6 +3,8 @@ Posso ajudar com mais alguma coisa?
 
 https://thispointer.com/python-how-to-convert-datetime-object-to-string-using-datetime-strftime/
 https://stackoverflow.com/questions/38050182/how-to-generate-fixed-url-with-ngrok
+https://chatbotslife.com/how-to-handle-context-with-dialogflow-part-1-knock-knock-jokes-4659b346d83b
+
 /* 1 */
 {
     "_id" : ObjectId("5da702cdc4bf44b4bd2309a7"),
@@ -10,7 +12,7 @@ https://stackoverflow.com/questions/38050182/how-to-generate-fixed-url-with-ngro
     "Location" : "Distrito Spark - Av. Visc. de Guarapuava, 3263 - Centro, Curitiba",
     "Date" : "2019-10-21",
     "Time" : "19:00",
-    "Description" : "Filler"
+    "Description" : "Business Sessions é o evento onde você pode conversar frente a frente com o palestrante, interagir e até tomar um café juntos! O evento é conduzido por Pablo Esquivel, community manager do Google Business Group Curitiba, e tem participação de destacados protagonistas do ecossistema e de membros da comunidade que se disponibilizam para compartilhar assuntos que dominam. Nosso foco é tecnologia e inovação aplicadas a negócios. "
 }
 
 /* 2 */
@@ -20,5 +22,35 @@ https://stackoverflow.com/questions/38050182/how-to-generate-fixed-url-with-ngro
     "Location" : "Distrito Spark - Av. Visc. de Guarapuava, 3263 - Centro, Curitiba",
     "Date" : "2019-10-21",
     "Time" : "19:00",
-    "Description" : "Filler"
+    "Description" : "Pessoas surpreendentes se reúnem para praticar inglês conversando entre amigos em um ambiente descontraído e agradável. A conversa começa com uma simples introdução e vai se desenvolvendo de acordo com os assuntos que os participantes desejam compartilhar. Não tem tema tabu, enquanto os participantes da conversa estejam se divertindo com o assunto. Em geral os participantes conversam sobre temas do cotidiano, principalmente aqueles que já vieram algumas vezes."
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5da86289c4bf44b4bd231708"),
+    "Name" : "Womenwill",
+    "Location" : "",
+    "Date" : "",
+    "Time" : "",
+    "Description" : "Womenwill é uma iniciativa do Google cujo objetivo é criar oportunidades econômicas para promover o desenvolvimento e o sucesso das mulheres ao redor do mundo. Ajudamos mulheres a usar a tecnologia para desenvolver suas habilidades, encontrar novas inspirações e para interagirem entre si por meio de treinamentos, eventos e ativismo. Nosso propósito é incentivar diálogos que promovam a igualdade de gênero e assim trazer benefícios para a sociedade."
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5da862b5c4bf44b4bd23170f"),
+    "Name" : "Business Pin",
+    "Location" : "",
+    "Date" : "",
+    "Time" : "",
+    "Description" : "O Google Meu Negócio é uma ferramenta gratuita, que permite as pessoas encontrem informações sobre sua empresa na Pesquisa Google e no Google Mapas. A oficina Business Pin é uma oficina rápida para ajudar aos empresários a configurar seu Google Meu Negócio com facilidade e rapidez. Todo o processo é gratuito e qualquer empresa pode ser beneficiada.Basta atender os requerimentos apresentados abaixo."
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5da862d6c4bf44b4bd231716"),
+    "Name" : "Bizfest",
+    "Location" : "",
+    "Date" : "",
+    "Time" : "",
+    "Description" : "Os Eventos GBG Biz Fest são a evolução dos eventos GDay X. Eventos GDayX são parte de uma série de eventos em grande escala realizados pelo Google na América Latina, Oriente Médio, África e Índia para desenvolvedores, entusiastas da tecnologia e empresários. Começou como parte da Iniciativa G-Africa , que foi expandida para os países da América Latina em 2012. Estes eventos normalmente duraram dois dias, divididos no dia do desenvolvedor (para desenvolvedores e entusiastas da tecnologia) e no dia útil Empresários) com o objetivo de mostrar a eles como aproveitar as ferramentas do Google para aproveitar as oportunidades oferecidas pela Internet e pelo celular."
 }

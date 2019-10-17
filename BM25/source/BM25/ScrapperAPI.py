@@ -58,7 +58,8 @@ def getRanking2():
     urls = []
 
     for item in learning_itens:
-        item_names.append({"nome":item['sistemaRepositorio']['nome'],"url":item['sistemaRepositorio']["url"]})
+        if item['sistemaRepositorio']:
+            item_names.append({"nome":item['sistemaRepositorio']['nome'],"url":item['sistemaRepositorio']["url"]})
 
     documments = scrapper.load_list(subject,item_names)
 

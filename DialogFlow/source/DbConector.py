@@ -35,3 +35,9 @@ class DbConector():
         self.closeDB()
         return documment
 
+    def findAll(self,query):
+        self.initDB()    
+        documments = self.collection.find(query)
+        self.closeDB()
+        return documments
+
