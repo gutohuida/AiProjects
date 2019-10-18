@@ -80,7 +80,7 @@ class BM25Scrapper:
         if self.collection and post:
             try:
                 #result = self.collection.insert_many(post)
-                result = self.collection.insert_one(post)
+                result = self.collection.insert(post)
                 return result
             except BulkWriteError as bwe:
                 return bwe.details
@@ -92,7 +92,7 @@ class BM25Scrapper:
         corpus = {}
         post_file = []
         corpus_aux = []
-        for i in range(9):
+        for i in range(1):
             for filename in self.not_found:
 
                 print(path+filename)
@@ -104,21 +104,21 @@ class BM25Scrapper:
                         corpus_aux.append(word)
 
                 #Preenche os dados que seram inseridos no banco        
-                # corpus['title'] = filename
-                # corpus['tokenizedText'] = ','.join(corpus_aux)
-                # corpus['disciplina'] = subject
-                # post_file.append(corpus)
-                # corpus = {}
-                # corpus_aux = []
+                corpus['title'] = filename
+                corpus['tokenizedText'] = ','.join(corpus_aux)
+                corpus['disciplina'] = subject
+                post_file.append(corpus)
+                corpus = {}
+                corpus_aux = []
 
                 
-                post_file.append([','.join(corpus_aux),filename])
-                corpus_aux = []
+                # post_file.append([','.join(corpus_aux),filename])
+                # corpus_aux = []
     
-        corpus['disciplina'] = subject
-        corpus['docs'] = post_file  
+        #corpus['disciplina'] = subject
+        #corpus['docs'] = post_file  
         #Insere todos os registros no banco    
-        self._insert_mongo(corpus)
+        self._insert_mongo(post_file)
         #return post_file + self.documments
 
       
