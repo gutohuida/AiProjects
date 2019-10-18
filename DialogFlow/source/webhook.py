@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # import flask dependencies
 from flask import Flask, request, make_response, jsonify
 from DbConector import DbConector
@@ -61,8 +63,8 @@ def webhook():
     if intent == "EventDate":
         date, time = EventDate(req["queryResult"]["parameters"]["Events"])
         if date:
-            return {"fulfillmentText":"O próximo {0} acontecerá dia {1} as {2}. Posso ajudar com algo a mais?".format(req["queryResult"]["parameters"]["Events"],date,time)}
-        return {"fulfillmentText": "O próximo {0} ainda não tem data marcada. Posso ajudar com algo a mais?".format(req["queryResult"]["parameters"]["Events"])}    
+            return jsonify({"fulfillmentText":"O próximo {0} acontecerá dia {1} as {2}. Posso ajudar com algo a mais?".format(req["queryResult"]["parameters"]["Events"],date,time)})
+        return jsonify({"fulfillmentText": "O próximo {0} ainda não tem data marcada. Posso ajudar com algo a mais?".format(req["queryResult"]["parameters"]["Events"])})
 
     ##Verifica a data de um evento caso ele esteja no branch local ou consulta de evento especifico
     if intent == "EventLocationDate" or intent == "EventConsultDate":
@@ -72,15 +74,15 @@ def webhook():
 
         date, time = EventDate(event)
         if date:
-            return {"fulfillmentText":"Será no dia {0} as {1}. Algo a mais?".format(date,time)}
-        return {"fulfillmentText": "Ainda não possui data marcada. Algo a mais?"}    
+            return jsonify({"fulfillmentText":"Será no dia {0} as {1}. Algo a mais?".format(date,time)})
+        return jsonify({"fulfillmentText": "Ainda não possui data marcada. Algo a mais?"})
 
     ##Verifica o local de um evento especifico
     if intent == "EventLocation":
         location = EventLocation(req["queryResult"]["parameters"]["Events"])
         if location:
-            return {"fulfillmentText": "O {0} acontecerá no {1}. Posso ajudar com algo a mais?".format(req["queryResult"]["parameters"]["Events"],location)}
-        return {"fulfillmentText": "O {0} ainda não tem local definido. Posso ajudar com algo a mais?".format(req["queryResult"]["parameters"]["Events"])}
+            return jsonify({"fulfillmentText": "O {0} acontecerá no {1}. Posso ajudar com algo a mais?".format(req["queryResult"]["parameters"]["Events"],location)})
+        return jsonify({"fulfillmentText": "O {0} ainda não tem local definido. Posso ajudar com algo a mais?".format(req["queryResult"]["parameters"]["Events"])})
 
     ##Verifica o local de um evento caso ele esteja no branch de data 
     if intent == "EventDateLocal":
@@ -90,13 +92,13 @@ def webhook():
 
         location = EventLocation(event)
         if location:
-            return {"fulfillmentText": "Será no {0}. Mais alguma coisa?".format(location)}
-        return {"fulfillmentText": "Ainda não tem local definido. Mais alguma coisa?"}
+            return jsonify({"fulfillmentText": "Será no {0}. Mais alguma coisa?".format(location)})
+        return jsonify({"fulfillmentText": "Ainda não tem local definido. Mais alguma coisa?"})
 
     ##Consulta quais iniciativas o GBG possui
     if intent == "Events":
         events = Events()
-        return {"fulfillmentText": "O GBG Curitiba possui as seguintes iniciativas: {0}. Gostaria de saber mais sobre alguma delas?".format(', '.join(events))} 
+        return jsonify({"fulfillmentText": "O GBG Curitiba possui as seguintes iniciativas: {0}. Gostaria de saber mais sobre alguma delas?".format(', '.join(events))} )
 
     ##Retorna a descrição de um evento dentro dos brachs de consulta de evento geral ou especifico
     if intent == "EventsYes" or intent == "EventConsult":
@@ -108,7 +110,7 @@ def webhook():
             event = req["queryResult"]["parameters"]["Events"]
 
         eventDescription = EventDescription(event)
-        return {"fulfillmentText":'{0} Poderia ajudar em algo a mais?'.format(eventDescription)}       
+        return jsonify({"fulfillmentText":'{0} Poderia ajudar em algo a mais?'.format(eventDescription)})
 
 # run the app
 if __name__ == '__main__':
