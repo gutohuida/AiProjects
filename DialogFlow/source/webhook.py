@@ -7,6 +7,7 @@ from datetime import date, datetime
 from unidecode import unidecode
 import json
 import locale
+import logging
 
 #Horario brasileiro
 locale.setlocale(locale.LC_TIME, 'pt_BR.utf8')
@@ -58,7 +59,7 @@ def EventDescription(EventName):
 def webhook():
     req = request.get_json(force=True)
     intent = req["queryResult"]["intent"]["displayName"]
-   
+    
     ##Verifica a data de um evento especifico
     if intent == "EventDate":
         date, time = EventDate(req["queryResult"]["parameters"]["Events"])
