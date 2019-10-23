@@ -1,1 +1,5 @@
 regex: \/\* [0-9]*[0-9] \*\/|"_id" : Objectid\(".*"\),
+[{'host': host, 'port': port}]
+23/10/2019: 
+    -Inserção de uma função na classe elastiDB, chamada scrap, que faz um scrapping de arquivos em uma paste e insere no elastisearch.
+    -Inserção de uma função na classe elastiDB, search, que procura no banco dado um indice a partir de uma query

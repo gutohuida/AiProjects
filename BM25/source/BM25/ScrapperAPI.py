@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify
 from flask import request
 from rank_bm25 import BM25Okapi
 from BM25Mongo import BM25Scrapper
@@ -7,6 +7,8 @@ from nltk.corpus import stopwords
 
 with open('./config.json') as file:
     config = json.load(file)
+
+JSON_SORT_KEYS = False
 
 scrapper = BM25Scrapper(host=config['host'],port=config['port'],data_base=config['data_base'],collection=config['collection'],stop_words=stopwords.words('portuguese'))
 app = Flask(__name__)
@@ -39,12 +41,16 @@ def getRanking():
     
     for pos, score in enumerate(doc_scores):
         score_tuple.append((titles[pos],score))
- 
+
+
     response = {}
-    for tsorted in sorted(score_tuple, key=lambda tup: tup[1], reverse=True):
-        response[tsorted[0]] = tsorted[1]
     
-    return json.dumps(response)
+    for tsorted in sorted(score_tuple, key=lambda tup: tup[1], reverse=True): 
+    #for tsorted in score_tuple.sort(key=lambda x: x[1]):  
+        if tsorted[1] > 0:
+            response[tsorted[0]] = str(tsorted[1])
+    print(response)
+    return jsonify(response)
 
 @app.route("/getRanking2", methods=["GET"])
 def getRanking2():
@@ -93,4 +99,4 @@ def wellcome():
     return 'Wellcome!'
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0', port=5001)

@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify
 from flask import request
 from rank_bm25 import BM25Okapi
 from BM25Mongo import BM25Scrapper
@@ -25,19 +25,12 @@ def getRanking():
     subject = request.args.get("subject")
     titles = []
     corpus = []
-    #for documment in scrapper.scrap(path):
-    #    titles.append(documment['title'])
-    #    corpus.append(documment['tokenizedText'])
+
     for documment in scrapper.load_all(subject):
         titles.append(documment['title'])
         corpus.append(documment['tokenizedText'])
 
     classifier = BM25Okapi(corpus)
-    #Pega os N mais relevantes
-    #doc_scores = classifier.get_top_n(key_words,corpus,ndocs)
-    #response = {}
-    #for score in doc_scores:
-    #    response[titles[corpus.index(score)]] = None
 
     doc_scores = classifier.get_scores(key_words)
     score_tuple = []
@@ -49,7 +42,7 @@ def getRanking():
     for tsorted in sorted(score_tuple, key=lambda tup: tup[1], reverse=True)[:ndocs]:
         response[tsorted[0]] = tsorted[1]
     
-    return json.dumps(response)
+    return jsonify(response)
  
 
 @app.route("/")
@@ -57,4 +50,4 @@ def wellcome():
     return 'Wellcome!'
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0', port=5001)
