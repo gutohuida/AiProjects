@@ -27,20 +27,32 @@ def insert():
     subject = req['subject']
     index = req['index']
     doc_type = req['doc_type']
+    extract_type = req['extract_type']
     #Scrap the documments into Elastic
-    es.scrap(path,subject,index,doc_type)
+    es.scrap(path,subject,index,doc_type,extract_type)
     return 'ok'
 
 
-@app.route('/searchFiles')   
-def search():
+@app.route('/searchQuery')   
+def searchQuery():
     #Get json from the body
     req = request.get_json(force=True)
     #Get variables, the information needed, from json
     index = req['index']
     query = req['query']
     #Search in the index
-    res = es.search(index,query)
+    res = es.search_query(index,query)
+    return jsonify(res['hits']['hits'])
+
+@app.route('/search')   
+def search():
+    #Get json from the body
+    req = request.get_json(force=True)
+    #Get variables, the information needed, from json
+    indexes = req['indexes']
+    key_words = req['keywords']
+    #Search in the index
+    res = es.search(indexes,key_words)
     return jsonify(res['hits']['hits'])
 
 # run the app

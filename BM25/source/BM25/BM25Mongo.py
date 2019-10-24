@@ -92,7 +92,7 @@ class BM25Scrapper:
         corpus = {}
         post_file = []
         corpus_aux = []
-        for i in range(1):
+        for _ in range(1):
             for filename in self.not_found:
 
                 print(path+filename)
