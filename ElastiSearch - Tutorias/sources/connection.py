@@ -51,8 +51,9 @@ def search():
     #Get variables, the information needed, from json
     indexes = req['indexes']
     key_words = req['keywords']
+    arqnames = req['arqnames']
     #Search in the index
-    res = es.search(indexes,key_words)
+    res = es.search(arqnames,indexes,key_words)
     return jsonify(res['hits']['hits'])
 
 # run the app

@@ -1,3 +1,4 @@
 {
+    
     "connection": "http://kibanaadmin:nupedia@cpd-elastic-02:9200"
 }

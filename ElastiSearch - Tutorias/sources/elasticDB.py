@@ -1,11 +1,11 @@
 from elasticsearch import Elasticsearch
-import os
-import textract
-from unidecode import unidecode
-import re
-import nltk as nltk
 from nltk.corpus import stopwords
-
+from unidecode import unidecode
+import nltk as nltk
+import json
+import textract
+import os
+import re
 
 
 class ElasticDB():
@@ -14,12 +14,7 @@ class ElasticDB():
         self.es = Elasticsearch([connection])
         if not self.es.ping():
             raise Exception("Não conectado")
-
   
-
-    def index(self,index,doc_type,body):
-        res = self.es.index(index=index,doc_type=doc_type,body=body)
-        return res
 
     def scrap(self,path,subject,index,doc_type,extract_type='treated'):
         corpus = {}
@@ -39,7 +34,32 @@ class ElasticDB():
                 corpus['texto'] =  ' '.join(corpus_aux)
 
             corpus['disciplina'] = subject
-            res = self.es.index(index=index,doc_type=doc_type,body=corpus)
+
+            if self.es.indices.exists(index):
+                res = self.es.index(index=index,body=corpus)
+            else:
+                settings = {
+                    "settings": {
+                        "number_of_shards": 1,
+                        "number_of_replicas": 0
+                    },
+                    "mappings": {
+                        "properties": {
+                            "titulo": {
+                                "type": "keyword"
+                            },
+                            "texto": {
+                                "type": "text"
+                            },
+                            "disciplina": {
+                                "type": "text"
+                            }                                
+                        }
+                     }
+                }
+                self.es.indices.create(index=index, body=settings)
+                res = self.es.index(index=index,body=corpus)
+
             corpus = {}
         return res
        
@@ -50,22 +70,68 @@ class ElasticDB():
         res = self.es.search(index=index,body=query)
         return res
 
-    def search(self,indexes,keywords):
+    def search(self,arqnames,indexes,keywords):
         #Vai receber um conjunto de disciplina no qual ele pode procurar e as palavras chaves que eu vou procurar.
+        # query = {
+        #     "_source": [
+        #         "titulo"
+        #     ],
+        #     "size": 1000,
+        #     "query": {
+        #         "match": {
+        #             "texto": {
+        #                 "query": " ".join(keywords),
+        #                 "operator": "or"
+        #             }
+        #         }
+        #     }
+        # }
+
+
         query = {
             "_source": [
                 "titulo"
             ],
             "size": 1000,
             "query": {
-                "match": {
-                    "texto": {
-                        "query": " ".join(keywords),
-                        "operator": "or"
-                    }
+                "bool": {
+                   "must": [{
+                       "match":{
+                           "texto": " ".join(keywords)
+                       }
+                   }],
+                   "filter": [{
+                       "terms": {
+                           "titulo": arqnames
+                       }
+                   }]
                 }
             }
         }
 
         res = self.es.search(index=indexes,body=query)
+        
         return res    
+
+
+    # def search(self,indexes,keywords):
+    #     #Vai receber um conjunto de disciplina no qual ele pode procurar e as palavras chaves que eu vou procurar.
+    #     query = {
+    #         "_source": [
+    #             "titulo"
+    #         ],
+    #         "size": 1000,
+    #         "query": {
+    #             "match": {
+    #                 "texto": {
+    #                     "query": " ".join(keywords),
+    #                     "operator": "or"
+    #                 }
+    #             }
+    #         }
+    #     }
+
+     
+
+    #     res = self.es.search(index=indexes,body=query)
+    #     return res          
