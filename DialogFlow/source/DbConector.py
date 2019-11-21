@@ -1,5 +1,7 @@
 import pymongo
 from pymongo import MongoClient
+from flask_sqlalchemy import SQLAlchemy as sql
+
 
 
 class DbConector():
@@ -39,4 +41,23 @@ class DbConector():
         documments = self.collection.find(query)
         self.closeDB()
         return documments
+
+# class evento(db.Model):
+#     evento_id = sql.Column(sql.Integer, primary_key=True)
+#     evento_nome = sql.Column(sql.String(255))
+#     evento_local = sql.Column(sql.String(255))
+#     evento_data = sql.Column(sql.DateTime)
+#     evento_desc = sql.Column(sql.String(3000))
+#     evento_inc_date = sql.Column(sql.DateTime)
+#     evento_alter_date = sql.Column(sql.DateTime)
+#     evento_inc_usu_id = sql.Column(sql.Integer, sql.ForeingKey('usuario.usuario_id'))
+#     evento_alt_usu_id = sql.Column(sql.Integer, sql.ForeingKey('usuario.usuario_id'))
+#     gbg_id = sql.Column(sql.Integer, sql.ForeingKey('gbg.gbg_id'))
+
+#     def __repr__(self):
+#         return '<Evento %r>' % self.evento_nome
+
+#     #usuarioinc = sql.relationship('usuario', backref=sql.backref('evento',lazy=True))
+
+
 

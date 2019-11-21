@@ -58,3 +58,8 @@ https://38eba2a2.ngrok.io/webhook
     "Time" : "",
     "Description" : "Os Eventos GBG Biz Fest são a evolução dos eventos GDay X. Eventos GDayX são parte de uma série de eventos em grande escala realizados pelo Google na América Latina, Oriente Médio, África e Índia para desenvolvedores, entusiastas da tecnologia e empresários. Começou como parte da Iniciativa G-Africa , que foi expandida para os países da América Latina em 2012. Estes eventos normalmente duraram dois dias, divididos no dia do desenvolvedor (para desenvolvedores e entusiastas da tecnologia) e no dia útil Empresários) com o objetivo de mostrar a eles como aproveitar as ferramentas do Google para aproveitar as oportunidades oferecidas pela Internet e pelo celular."
 }
+
+
+
+CloudSQL
+https://cloud.google.com/python/getting-started/using-cloud-sql?hl=pt-br

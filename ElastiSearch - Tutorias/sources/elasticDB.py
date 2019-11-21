@@ -16,7 +16,7 @@ class ElasticDB():
             raise Exception("Não conectado")
   
 
-    def scrap(self,path,subject,index,doc_type,extract_type='treated'):
+    def scrap(self,path,subject,index,extract_type='treated'):
         corpus = {}
         corpus_aux = []
         stop_words = stopwords.words('portuguese')

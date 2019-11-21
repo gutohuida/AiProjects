@@ -26,10 +26,9 @@ def insert():
     path = req['path']
     subject = req['subject']
     index = req['index']
-    doc_type = req['doc_type']
     extract_type = req['extract_type']
     #Scrap the documments into Elastic
-    es.scrap(path,subject,index,doc_type,extract_type)
+    es.scrap(path,subject,index,extract_type)
     return 'ok'
 
 
