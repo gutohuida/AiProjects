@@ -1,7 +1,16 @@
 import pymongo
 from pymongo import MongoClient
-from flask_sqlalchemy import SQLAlchemy as sql
+from flask import Flask
+from flask_restplus import Api
+from flask_sqlalchemy import SQLAlchemy
+from init import app
 
+
+from core.config import MYSQL_CONFIG as SQLCONFIG
+
+# app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://{user}:{password}@{ip}/{db}'.format(user=SQLCONFIG["user"],password=SQLCONFIG["password"],ip=SQLCONFIG["host"],db=SQLCONFIG["db"])
+db = SQLAlchemy(app)
 
 
 class DbConector():
@@ -42,22 +51,22 @@ class DbConector():
         self.closeDB()
         return documments
 
-# class evento(db.Model):
-#     evento_id = sql.Column(sql.Integer, primary_key=True)
-#     evento_nome = sql.Column(sql.String(255))
-#     evento_local = sql.Column(sql.String(255))
-#     evento_data = sql.Column(sql.DateTime)
-#     evento_desc = sql.Column(sql.String(3000))
-#     evento_inc_date = sql.Column(sql.DateTime)
-#     evento_alter_date = sql.Column(sql.DateTime)
-#     evento_inc_usu_id = sql.Column(sql.Integer, sql.ForeingKey('usuario.usuario_id'))
-#     evento_alt_usu_id = sql.Column(sql.Integer, sql.ForeingKey('usuario.usuario_id'))
-#     gbg_id = sql.Column(sql.Integer, sql.ForeingKey('gbg.gbg_id'))
+class Evento(db.Model):
+    evento_id = db.Column(db.Integer, primary_key=True)
+    evento_nome = db.Column(db.String(255))
+    evento_local = db.Column(db.String(255))
+    evento_data = db.Column(db.DateTime)
+    evento_desc = db.Column(db.String(3000))
+    evento_inc_date = db.Column(db.DateTime)
+    evento_alter_date = db.Column(db.DateTime)
+    evento_inc_usu_id = db.Column(db.Integer, db.ForeignKey('usuario.usuario_id'))
+    evento_alt_usu_id = db.Column(db.Integer, db.ForeignKey('usuario.usuario_id'))
+    gbg_id = db.Column(db.Integer, db.ForeignKey('gbg.gbg_id'))
 
-#     def __repr__(self):
-#         return '<Evento %r>' % self.evento_nome
+    def __repr__(self):
+        return '<Evento %r>' % self.evento_nome
 
-#     #usuarioinc = sql.relationship('usuario', backref=sql.backref('evento',lazy=True))
+    #usuarioinc = db.relationship('usuario', backref=db.backref('evento',lazy=True))
 
 
 

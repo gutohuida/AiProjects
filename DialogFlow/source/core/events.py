@@ -1,6 +1,7 @@
-from DbConector import DbConector
-from config import MONGO_CONFIG as CONFIG
+from core.DbConector import DbConector, Evento
+from core.config import MONGO_CONFIG as CONFIG
 from datetime import date, datetime
+from unidecode import unidecode
 
 
 def EventDate(EventName):
